@@ -5,8 +5,13 @@
   "icons": [
     {
       "src": "img/avatar.jpg",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "img/avatar.jpg",
       "sizes": "512x512",
-      "type": "image/jpg"
+      "type": "image/png"
     }
   ],
   "background_color": "#fff",
