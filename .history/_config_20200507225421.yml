@@ -85,7 +85,7 @@ friends: []
 
 defaults:
   - scope:
-      path: ''
+      path: 'computer'
       type: 'posts'
     values:
       layout: post

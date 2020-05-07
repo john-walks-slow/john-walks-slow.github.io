@@ -85,11 +85,11 @@ friends: []
 
 defaults:
   - scope:
-      path: ''
+      path: 'computer'
       type: 'posts'
     values:
       layout: post
       author: '小齐'
       header-img: 'img/home-bg.jpg'
       tags:
-        - 玩电脑
+        - Life

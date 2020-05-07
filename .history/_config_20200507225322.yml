@@ -85,11 +85,14 @@ friends: []
 
 defaults:
   - scope:
-      path: ''
+      path: 'computer'
       type: 'posts'
     values:
-      layout: post
-      author: '小齐'
-      header-img: 'img/home-bg.jpg'
-      tags:
-        - 玩电脑
+      layout:     post
+title:      "Hello 2015"
+subtitle:   "Hello World, Hello Blog"
+date:       2015-01-29 12:00:00
+author:     "Hux"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - Life

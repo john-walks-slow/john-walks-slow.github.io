@@ -1,6 +1,6 @@
 # Site settings
-title: 小齐慢慢前进! | John Walks Slow
-SEOTitle: 小齐慢慢前进! | John Walks Slow
+title: John Walks Slow
+SEOTitle: 小齐慢慢前进 | John Walks Slow
 header-img: img/home-bg.jpg
 email: huxpro@gmail.com
 description: '小齐的博客里什么都没有'
@@ -82,14 +82,3 @@ page-mathjax: false
 
 # Friends
 friends: []
-
-defaults:
-  - scope:
-      path: ''
-      type: 'posts'
-    values:
-      layout: post
-      author: '小齐'
-      header-img: 'img/home-bg.jpg'
-      tags:
-        - 玩电脑

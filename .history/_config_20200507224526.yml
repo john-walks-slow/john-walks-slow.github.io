@@ -82,14 +82,3 @@ page-mathjax: false
 
 # Friends
 friends: []
-
-defaults:
-  - scope:
-      path: ''
-      type: 'posts'
-    values:
-      layout: post
-      author: '小齐'
-      header-img: 'img/home-bg.jpg'
-      tags:
-        - 玩电脑

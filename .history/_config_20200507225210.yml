@@ -85,11 +85,9 @@ friends: []
 
 defaults:
   - scope:
-      path: ''
+      path: 'projects'
       type: 'posts'
     values:
-      layout: post
-      author: '小齐'
-      header-img: 'img/home-bg.jpg'
-      tags:
-        - 玩电脑
+      layout: 'project'
+      author: 'Mr. Hyde'
+      category: 'project'
