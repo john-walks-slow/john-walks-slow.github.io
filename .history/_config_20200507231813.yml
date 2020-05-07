@@ -85,13 +85,6 @@ friends: []
 
 defaults:
   - scope:
-      path: ''
-      type: 'posts'
-    values:
-      layout: post
-      author: '小齐'
-      header-img: 'img/home-bg.jpg'
-  - scope:
       path: '玩电脑'
       type: 'posts'
     values:
