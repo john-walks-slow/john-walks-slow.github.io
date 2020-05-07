@@ -5,8 +5,8 @@
     <description>小齐的Blog：无意义的玩，没结果的思考，记不住的记录</description>
     <link>https://john-walks-slow.github.io//</link>
     <atom:link href="https://john-walks-slow.github.io//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 08 May 2020 01:18:08 +0800</pubDate>
-    <lastBuildDate>Fri, 08 May 2020 01:18:08 +0800</lastBuildDate>
+    <pubDate>Fri, 08 May 2020 01:30:23 +0800</pubDate>
+    <lastBuildDate>Fri, 08 May 2020 01:30:23 +0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -23,7 +23,9 @@
 
 &lt;h2 id=&quot;通知栏搜索歌词乐评&quot;&gt;通知栏搜索歌词/乐评&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://llamalab.com/automate/community/flows/34854&quot;&gt;https://llamalab.com/automate/community/flows/34854&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img title=&quot;&quot; src=&quot;https://raw.githubusercontent.com/john-walks-slow/john-markdown-images/master/2020/05/08-01-29-12-Screenshot_2020-05-08-01-10-50-167_com.netease.cloudmusic.lite.jpg&quot; alt=&quot;Screenshot_2020-05-08-01-10-50-167_com.netease.cloudmusic.lite.jpg&quot; width=&quot;432&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://llamalab.com/automate/community/flows/34854&quot;&gt;下载链接&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;播放音乐时，生成一条用于快速搜索音乐信息的通知。可以用来搜索歌词、乐评等。&lt;/p&gt;
 
@@ -35,13 +37,9 @@
   &lt;p&gt;注意：由于系统限制，最多同时选择三个搜索引擎~&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;img src=&quot;D:\Coding\john-walks-slow\img\in-post\039510822732ea2f1b28e3297b13888b83462dfb.jpg&quot; alt=&quot;Screenshot_2020-05-08-01-10-50-167_com.netease.cloudmusic.lite.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;##&lt;/p&gt;
-
 &lt;h2 id=&quot;耳机点亮红心&quot;&gt;耳机点亮红心&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://llamalab.com/automate/community/flows/34850&quot;&gt;https://llamalab.com/automate/community/flows/34850&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://llamalab.com/automate/community/flows/34850&quot;&gt;下载链接&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;长按蓝牙耳机点亮红心。若当前没有播放音乐，则启动默认音乐播放器。&lt;/p&gt;
 
