@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hux Blog</title>
+    <description>关于程序与设计、黑客与画家 | 黄玄，Web &amp; Mobile Lover，Software Engineer，UX Designer | 这里是 @Hux黄玄 的个人博客，与你一起发现更大的世界。</description>
+    <link>https://huangxuan.me/</link>
+    <atom:link href="https://huangxuan.me/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Thu, 07 May 2020 20:56:21 +0800</pubDate>
+    <lastBuildDate>Thu, 07 May 2020 20:56:21 +0800</lastBuildDate>
+    <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>用automate实现的音乐小工具</title>
+        <description>&lt;h1 id=&quot;用automate实现的音乐小工具&quot;&gt;用automate实现的音乐小工具&lt;/h1&gt;
+
+&lt;p&gt;automate是安卓上的一个自动化工具，可以用简单的流程图编写出很多实用的小工具，一级棒！&lt;/p&gt;
+
+&lt;p&gt;分享两个我用它做的音乐小工具！&lt;/p&gt;
+
+&lt;p&gt;（请自己下载一下automate喔~免费版最多支持三十个block，足够使用我写的这两个工具啦。想长期用建议入正。）&lt;/p&gt;
+
+&lt;h2 id=&quot;搜索我的音乐&quot;&gt;搜索我的音乐&lt;/h2&gt;
+
+&lt;p&gt;https://llamalab.com/automate/community/flows/34854&lt;/p&gt;
+
+&lt;p&gt;播放音乐时，生成一条用于快速搜索音乐信息的通知。可以用来搜索歌词、乐评等。&lt;/p&gt;
+
+&lt;p&gt;默认提供的搜索引擎有：谷歌、百度、豆瓣、Rate Your Music、Song Meanings、Genius、AZ Lyrics。&lt;/p&gt;
+
+&lt;p&gt;在第一个block可以自定义其他的搜索引擎。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;注意：由于系统限制，最多同时选择三个搜索引擎~&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;用耳机点亮红心&quot;&gt;用耳机点亮红心&lt;/h2&gt;
+
+&lt;p&gt;https://llamalab.com/automate/community/flows/34850&lt;/p&gt;
+
+&lt;p&gt;长按蓝牙耳机点亮红心。若当前没有播放音乐，则启动默认音乐播放器。&lt;/p&gt;
+
+&lt;p&gt;需要你的耳机能唤起语音助手才能用，原理是把唤起语音助手的操作替换为点击通知的上的红心按钮。如果你有用scrobbler的话（不知道这是什么请跳过~），你还可以用它同时点亮last.fm的红心。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;使用前要去block #22设置一下你使用的音乐播放器！&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;测试过支持的播放器：网易云、spotify&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;注意：网易云需要在设置里把通知栏样式改为系统&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;测试过支持的scrobbler：pano scrobbler&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 07 May 2020 00:00:00 +0800</pubDate>
+        <link>https://huangxuan.me/2020/05/07/%E7%94%A8automate%E5%AE%9E%E7%8E%B0%E7%9A%84%E9%9F%B3%E4%B9%90%E5%B0%8F%E5%B7%A5%E5%85%B7/</link>
+        <guid isPermaLink="true">https://huangxuan.me/2020/05/07/%E7%94%A8automate%E5%AE%9E%E7%8E%B0%E7%9A%84%E9%9F%B3%E4%B9%90%E5%B0%8F%E5%B7%A5%E5%85%B7/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
