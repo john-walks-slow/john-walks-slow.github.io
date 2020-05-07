@@ -5,12 +5,12 @@
     <description>小齐的Blog：无意义的玩，没结果的思考，记不住的记录</description>
     <link>https://john-walks-slow.github.io//</link>
     <atom:link href="https://john-walks-slow.github.io//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 08 May 2020 01:16:04 +0800</pubDate>
-    <lastBuildDate>Fri, 08 May 2020 01:16:04 +0800</lastBuildDate>
+    <pubDate>Fri, 08 May 2020 01:18:08 +0800</pubDate>
+    <lastBuildDate>Fri, 08 May 2020 01:18:08 +0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
-        <title>玩电脑：用automate实现的音乐小工具</title>
+        <title>玩手机：用automate实现的音乐小工具</title>
         <description>&lt;blockquote&gt;
   &lt;p&gt;1.通知栏搜索歌词/乐评 2.耳机点亮红心&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -58,10 +58,10 @@
 &lt;/blockquote&gt;
 </description>
         <pubDate>Fri, 08 May 2020 00:00:00 +0800</pubDate>
-        <link>https://john-walks-slow.github.io//2020/05/08/%E7%8E%A9%E7%94%B5%E8%84%91-%E7%94%A8automate%E5%AE%9E%E7%8E%B0%E7%9A%84%E9%9F%B3%E4%B9%90%E5%B0%8F%E5%B7%A5%E5%85%B7/</link>
-        <guid isPermaLink="true">https://john-walks-slow.github.io//2020/05/08/%E7%8E%A9%E7%94%B5%E8%84%91-%E7%94%A8automate%E5%AE%9E%E7%8E%B0%E7%9A%84%E9%9F%B3%E4%B9%90%E5%B0%8F%E5%B7%A5%E5%85%B7/</guid>
+        <link>https://john-walks-slow.github.io//2020/05/08/%E7%8E%A9%E6%89%8B%E6%9C%BA-%E7%94%A8automate%E5%AE%9E%E7%8E%B0%E7%9A%84%E9%9F%B3%E4%B9%90%E5%B0%8F%E5%B7%A5%E5%85%B7/</link>
+        <guid isPermaLink="true">https://john-walks-slow.github.io//2020/05/08/%E7%8E%A9%E6%89%8B%E6%9C%BA-%E7%94%A8automate%E5%AE%9E%E7%8E%B0%E7%9A%84%E9%9F%B3%E4%B9%90%E5%B0%8F%E5%B7%A5%E5%85%B7/</guid>
         
-        <category>玩电脑</category>
+        <category>玩手机</category>
         
         
       </item>
