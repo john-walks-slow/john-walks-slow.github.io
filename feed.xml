@@ -5,8 +5,8 @@
     <description>小齐的Blog：无意义的玩，没结果的思考，记不住的记录</description>
     <link>https://john-walks-slow.github.io//</link>
     <atom:link href="https://john-walks-slow.github.io//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 08 May 2020 01:10:11 +0800</pubDate>
-    <lastBuildDate>Fri, 08 May 2020 01:10:11 +0800</lastBuildDate>
+    <pubDate>Fri, 08 May 2020 01:16:04 +0800</pubDate>
+    <lastBuildDate>Fri, 08 May 2020 01:16:04 +0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -23,7 +23,9 @@
 
 &lt;h2 id=&quot;通知栏搜索歌词乐评&quot;&gt;通知栏搜索歌词/乐评&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://llamalab.com/automate/community/flows/34854&quot;&gt;https://llamalab.com/automate/community/flows/34854&lt;/a&gt;播放音乐时，生成一条用于快速搜索音乐信息的通知。可以用来搜索歌词、乐评等。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://llamalab.com/automate/community/flows/34854&quot;&gt;https://llamalab.com/automate/community/flows/34854&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;播放音乐时，生成一条用于快速搜索音乐信息的通知。可以用来搜索歌词、乐评等。&lt;/p&gt;
 
 &lt;p&gt;默认提供的搜索引擎有：谷歌、百度、豆瓣、Rate Your Music、Song Meanings、Genius、AZ Lyrics。&lt;/p&gt;
 
@@ -32,6 +34,10 @@
 &lt;blockquote&gt;
   &lt;p&gt;注意：由于系统限制，最多同时选择三个搜索引擎~&lt;/p&gt;
 &lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;D:\Coding\john-walks-slow\img\in-post\039510822732ea2f1b28e3297b13888b83462dfb.jpg&quot; alt=&quot;Screenshot_2020-05-08-01-10-50-167_com.netease.cloudmusic.lite.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##&lt;/p&gt;
 
 &lt;h2 id=&quot;耳机点亮红心&quot;&gt;耳机点亮红心&lt;/h2&gt;
 
@@ -45,11 +51,11 @@
 
 &lt;p&gt;测试过支持的播放器：网易云、Spotify&lt;/p&gt;
 
+&lt;p&gt;测试过支持的scrobbler：Pano Scrobbler&lt;/p&gt;
+
 &lt;blockquote&gt;
   &lt;p&gt;注意：网易云需要在设置里把通知栏样式改为系统&lt;/p&gt;
 &lt;/blockquote&gt;
-
-&lt;p&gt;测试过支持的scrobbler：Pano Scrobbler&lt;/p&gt;
 </description>
         <pubDate>Fri, 08 May 2020 00:00:00 +0800</pubDate>
         <link>https://john-walks-slow.github.io//2020/05/08/%E7%8E%A9%E7%94%B5%E8%84%91-%E7%94%A8automate%E5%AE%9E%E7%8E%B0%E7%9A%84%E9%9F%B3%E4%B9%90%E5%B0%8F%E5%B7%A5%E5%85%B7/</link>
