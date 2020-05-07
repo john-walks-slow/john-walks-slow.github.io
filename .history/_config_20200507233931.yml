@@ -14,8 +14,9 @@ future: true
 # SNS settings
 RSS: false
 weibo_username: JohnnRen
-zhihu_username: john-walks-slow
+zhihu_username: JohnnRen
 github_username: john-walks-slow
+twitter_username: JohnnRen
 facebook_username: yan_qi_ren
 #linkedin_username:  firstname-lastname-idxxxx
 
@@ -100,7 +101,7 @@ defaults:
       tags:
         - 玩电脑
   - scope:
-      path: '_posts/玩音乐'
+      path: '玩音乐'
       type: 'posts'
     values:
       layout: post
@@ -109,7 +110,7 @@ defaults:
       tags:
         - 玩音乐
   - scope:
-      path: '_posts/想事情'
+      path: '想事情'
       type: 'posts'
     values:
       layout: post

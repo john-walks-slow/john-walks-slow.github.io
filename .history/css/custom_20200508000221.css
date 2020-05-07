@@ -1,0 +1,17 @@
+@media screen and (max-width: 768px) {
+  .subheading {
+    font-size: 14px !important;
+    margin: 10px 10px 0 !important;
+  }
+}
+.intro-header .site-heading h1,
+.intro-header .page-heading h1 {
+  margin-top: 0;
+  font-size: 40px;
+}
+@media only screen and (min-width: 768px) {
+  .intro-header .site-heading h1,
+  .intro-header .page-heading h1 {
+    font-size: 70px;
+  }
+}
