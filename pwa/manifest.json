@@ -4,14 +4,9 @@
   "description": "小齐的Blog",
   "icons": [
     {
-      "src": "icons/128.png",
-      "sizes": "128x128",
-      "type": "image/png"
-    },
-    {
-      "src": "icons/512.png",
+      "src": "img/avatar.jpg",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/jpg"
     }
   ],
   "background_color": "#fff",
