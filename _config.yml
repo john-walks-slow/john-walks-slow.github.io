@@ -1,7 +1,7 @@
 # Site settings
 title: 小齐慢慢前进 | John Walks Slow
 title-short: 小齐慢慢前进!
-SEOTitle: 小齐慢慢前进! | John Walks Slow
+SEOTitle: 小齐慢慢前进 | John Walks Slow
 header-img: img/home-bg.jpg
 email: huxpro@gmail.com
 description: '小齐的Blog：无意义的玩，没结果的思考，记不住的记录'
@@ -13,11 +13,13 @@ baseurl: '' # for example, '/blog' if your blog hosted on 'host/blog'
 future: true
 
 # SNS settings
-RSS: false
+RSS: true
 weibo_username: JohnnRen
 zhihu_username: john-walks-slow
 github_username: john-walks-slow
-facebook_username: yan_qi_ren
+facebook_username: john.walks.slow
+douban_username: john-walks-slow
+streetvoice_username: john_walks_slow
 #linkedin_username:  firstname-lastname-idxxxx
 
 # Build settings
@@ -66,7 +68,7 @@ ga_domain: 'john-walks-slow.github.io'
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: '小齐有问题'
+sidebar-about-description: '小齐有很多的问题'
 sidebar-avatar: /img/avatar.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
@@ -80,8 +82,8 @@ service-worker: true
 # MathJax rendering for layout:page (e.g. post preview)
 page-mathjax: false
 
-# Friends
-friends: []
+# # Friends
+# friends: []
 
 defaults:
   - scope:
@@ -91,8 +93,10 @@ defaults:
       layout: post
       author: '小齐'
       header-img: 'img/home-bg.jpg'
+      tags:
+        - 杂文
   - scope:
-      path: '_posts/玩电脑'
+      path: '玩电脑 | *'
       type: 'posts'
     values:
       layout: post
@@ -101,7 +105,7 @@ defaults:
       tags:
         - 玩电脑
   - scope:
-      path: '_posts/玩手机'
+      path: '玩手机 | *'
       type: 'posts'
     values:
       layout: post
@@ -110,7 +114,7 @@ defaults:
       tags:
         - 玩手机
   - scope:
-      path: '_posts/玩音乐'
+      path: '玩音乐 | *'
       type: 'posts'
     values:
       layout: post
@@ -119,7 +123,7 @@ defaults:
       tags:
         - 玩音乐
   - scope:
-      path: '_posts/想事情'
+      path: '想事情 | *'
       type: 'posts'
     values:
       layout: post
@@ -127,3 +131,21 @@ defaults:
       header-img: 'img/home-bg.jpg'
       tags:
         - 想事情
+  - scope:
+      path: '读书笔记 | *'
+      type: 'posts'
+    values:
+      layout: post
+      author: '小齐'
+      header-img: 'img/home-bg.jpg'
+      tags:
+        - 读书笔记
+  - scope:
+      path: '周记 | *'
+      type: 'posts'
+    values:
+      layout: post
+      author: '小齐'
+      header-img: 'img/home-bg.jpg'
+      tags:
+        - 周记
