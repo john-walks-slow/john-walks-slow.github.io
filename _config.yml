@@ -93,7 +93,7 @@ defaults:
       tags:
         - 杂文
   - scope:
-      path: '_posts/玩电脑'
+      path: '_posts/玩'
       type: 'posts'
     values:
       layout: post
@@ -101,32 +101,8 @@ defaults:
       header-img: 'img/home-bg.jpg'
       categories:
         - 玩
-      tags:
-        - 玩电脑
   - scope:
-      path: '_posts/玩手机'
-      type: 'posts'
-    values:
-      layout: post
-      author: '小齐'
-      header-img: 'img/home-bg.jpg'
-      categories:
-        - 玩
-      tags:
-        - 玩手机
-  - scope:
-      path: '_posts/玩音乐'
-      type: 'posts'
-    values:
-      layout: post
-      author: '小齐'
-      header-img: 'img/home-bg.jpg'
-      categories:
-        - 玩
-      tags:
-        - 玩音乐
-  - scope:
-      path: '_posts/想事情'
+      path: '_posts/思考'
       type: 'posts'
     values:
       layout: post
@@ -134,10 +110,8 @@ defaults:
       header-img: 'img/home-bg.jpg'
       categories:
         - 思考
-      tags:
-        - 想事情
   - scope:
-      path: '_posts/读书笔记'
+      path: '_posts/记录'
       type: 'posts'
     values:
       layout: post
@@ -145,16 +119,3 @@ defaults:
       header-img: 'img/home-bg.jpg'
       categories:
         - 记录
-      tags:
-        - 读书笔记
-  - scope:
-      path: '_posts/周记'
-      type: 'posts'
-    values:
-      layout: post
-      author: '小齐'
-      header-img: 'img/home-bg.jpg'
-      categories:
-        - 记录
-      tags:
-        - 周记
