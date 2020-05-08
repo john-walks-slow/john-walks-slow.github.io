@@ -1,5 +1,5 @@
 # Site settings
-title: 小齐慢慢前进：John Walks Slow
+title: 小齐慢慢前进 | John Walks Slow
 title-short: 小齐慢慢前进!
 SEOTitle: 小齐慢慢前进 | John Walks Slow
 header-img: img/home-bg.jpg
@@ -62,10 +62,6 @@ netease_comment: false
 # Analytics settings
 # Baidu Analytics
 # ba_track_id: [your track id]
-
-# Google Analytics
-ga_track_id: 'UA-165843056-1' # Format: UA-xxxxxx-xx
-ga_domain: 'john-walks-slow.github.io'
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
