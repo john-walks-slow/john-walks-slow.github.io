@@ -107,36 +107,6 @@
     })
 </script>
 
-
-<!-- Google Analytics -->
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165843056-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-165843056-1');
-</script>
-
-<!-- Baidu Tongji -->
-{% if site.ba_track_id %}
-<script>
-    // dynamic User by Hux
-    var _baId = '{{ site.ba_track_id }}';
-
-    // Originial
-    var _hmt = _hmt || [];
-    (function () {
-        var hm = document.createElement("script");
-        hm.src = "//hm.baidu.com/hm.js?" + _baId;
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(hm, s);
-    })();
-</script>
-{% endif %}
-
-
 <!-- Side Catalog -->
 {% if page.catalog %}
 <script type="text/javascript">
