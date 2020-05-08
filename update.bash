@@ -17,9 +17,9 @@ for folder in *; do
         for file in *; do
             if [[ "$file" =~ [^.*@publish\.md$] ]]; then
                 date=$(date -r "$file" "+%Y-%m-%d")
-                name="$date-$folder：${file// /-}"
-                echo "Generated: $TARGET_DIR/${name%@publish.*}.md"
-                cp "$file" "$TARGET_DIR/${name%@publish.*}.md"
+                name="$date-${file// /-}"
+                echo "Generated: ${name%@publish.*}.md"
+                mkdir -p "$TARGET_DIR/$folder" && cp "$file" "$TARGET_DIR/$folder/${name%@publish.*}.md"
             else
                 :
             fi
