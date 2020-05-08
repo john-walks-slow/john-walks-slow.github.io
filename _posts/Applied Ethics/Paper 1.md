@@ -1,0 +1,5 @@
+> “Surely we do not have any such ‘special responsibility’ for a person unless we have assumed it, explicitly or implicitly. If a set of parents do not try to prevent pregnancy, do not obtain an abortion, and then at the time of birth of the child do not put it out for adoption, but rather take it home with them, then they have assumed responsibility…. But if they have taken all reasonable precautions against having a child, they do not simply by virtue of their biological responsibility to the child who comes into existence have a special responsibility for it” (Thomson, “A Defense of Abortion,” 65). 
+
+(a) What is Thomson trying to show? To what extent, if at all, is she successful? 
+(b) Do you think that the idea of “humanitarian duty” invoked in a Minnesota legal case (where someone—the Defendant—refused to let the guest stay overnight when there was a sudden snowstorm) would undermine Thomson’s argument? 
+(Do you think there might be a humanitarian duty to help others in dire need?) Discuss.

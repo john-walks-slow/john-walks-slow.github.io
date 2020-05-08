@@ -1,4 +1,4 @@
-source_dir="/mnt/d/OneDrive - The Chinese University of Hong Kong/2. Writing/John Walks Slow"
+source_dir="/mnt/d/OneDrive - The Chinese University of Hong Kong/2. Writing"
 
 git checkout source
 rm -rf _posts/*
