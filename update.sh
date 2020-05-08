@@ -10,7 +10,7 @@ cd _posts
 today=$(date +'%Y-%m-%d')
 
 for folder in *; do
-    if [ -d $folder ] ; then
+    if [ -d $folder ]; then
         cd $folder
         for file in *; do
             if [[ $file =~ ^.*@publish.md$ ]]; then
