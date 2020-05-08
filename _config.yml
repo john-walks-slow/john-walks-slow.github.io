@@ -93,7 +93,7 @@ defaults:
       tags:
         - 杂文
   - scope:
-      path: '玩电脑'
+      path: '_posts/玩电脑'
       type: 'posts'
     values:
       layout: post
@@ -104,7 +104,7 @@ defaults:
       tags:
         - 玩电脑
   - scope:
-      path: '玩手机'
+      path: '_posts/玩手机'
       type: 'posts'
     values:
       layout: post
@@ -115,7 +115,7 @@ defaults:
       tags:
         - 玩手机
   - scope:
-      path: '玩音乐'
+      path: '_posts/玩音乐'
       type: 'posts'
     values:
       layout: post
@@ -126,7 +126,7 @@ defaults:
       tags:
         - 玩音乐
   - scope:
-      path: '想事情'
+      path: '_posts/想事情'
       type: 'posts'
     values:
       layout: post
@@ -137,7 +137,7 @@ defaults:
       tags:
         - 想事情
   - scope:
-      path: '读书笔记'
+      path: '_posts/读书笔记'
       type: 'posts'
     values:
       layout: post
@@ -148,7 +148,7 @@ defaults:
       tags:
         - 读书笔记
   - scope:
-      path: '周记'
+      path: '_posts/周记'
       type: 'posts'
     values:
       layout: post
