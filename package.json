@@ -3,6 +3,7 @@
   "title": "John Walks Slow",
   "author": "John <john.ren.contact@gmail.com>",
   "version": "1.0.0",
+  "license": "Apache-2.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/JohnnRen/john-walks-slow"
@@ -16,7 +17,7 @@
   },
   "scripts": {
     "build": "jekyll build",
-    "start": "jekyll serve -w -l --host 0.0.0.0 --port 4000",
+    "start": "jekyll serve -w -l",
     "dev": "grunt watch & npm run start",
     "boil": "git push boilerplate boilerplate:master",
     "push": "git push origin master --tag"
