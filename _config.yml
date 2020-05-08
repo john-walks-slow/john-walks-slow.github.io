@@ -27,7 +27,6 @@ wyy_username: '125143088'
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 highlighter: rouge
 permalink: pretty
-paginate: 10
 exclude: ['less', 'node_modules', 'Gruntfile.js', 'package.json', 'README.md', 'README.zh.md']
 anchorjs: true # if you want to customize anchor. check out line:181 of `post.html`
 # If you have timezone issue (e.g. #68) in China, uncomment to use this:
@@ -37,8 +36,12 @@ anchorjs: true # if you want to customize anchor. check out line:181 of `post.ht
 # from PR#40, to support local preview for Jekyll 3.0
 # make sure you have this gem installed
 # `$ gem install jekyll-paginate`
-plugins: [jekyll-paginate]
-
+plugins: [jekyll-paginate-v2]
+pagination:
+  # Site-wide kill switch, disabled here it doesn't run at all
+  enabled: true
+  title: ':title'
+  permalink: '/page/:num/'
 # Markdown settings
 # replace redcarpet to kramdown,
 # although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown

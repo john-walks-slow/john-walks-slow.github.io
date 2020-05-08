@@ -23,11 +23,18 @@
             <li>
               <a class="fa fa-home" href="{{ site.baseurl }}/"></a>
             </li>
-            {% for page in site.pages %} {% if page.title and page.hide-in-nav != true %}
             <li>
-              <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+              <a href="{{ site.baseurl }}/玩">玩</a>
             </li>
-            {% endif %} {% endfor %}
+            <li>
+              <a href="{{ site.baseurl }}/思考">思考</a>
+            </li>
+            <li>
+              <a href="{{ site.baseurl }}/记录">记录</a>
+            </li>
+            <li>
+              <a href="{{ site.baseurl }}/陈列室">陈列室</a>
+            </li>
           </ul>
         </div>
       </div>

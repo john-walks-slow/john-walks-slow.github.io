@@ -1,0 +1,55 @@
+---
+layout: default
+---
+
+<!-- Image to hack wechat -->
+<!-- <img src="/img/avatar.jpg" width="0" height="0"> -->
+<!-- <img src="{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}" width="0" height="0"> -->
+
+<!-- Page Header -->
+{% include intro-header.html type='page' %}
+
+<!-- Main Content -->
+<div class="container">
+  <div class="row">
+    <!-- USE SIDEBAR -->
+    <!-- PostList Container -->
+    <div
+      class="col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 col-sm-12 col-xs-12 postlist-container"
+    >
+      {% include short-about.html %}
+      <!-- Friends Blog -->
+      <!-- {% include friends.html %} -->
+    </div>
+    <!-- Sidebar Container -->
+    <div class="col-lg-8 col-lg-offset-0 col-md-8 col-md-offset-0 col-sm-12 col-xs-12">
+      <hr />
+      <h5>RECENT</h5>
+      {% include posts.html %} {% include pager.html %}
+    </div>
+  </div>
+
+  {% if site.page-mathjax %}
+  <!-- Add support for Mathjax by Voleking-->
+  <!-- If you want to see formulars well in post preview, Maybe you should add this.-->
+  <!-- However, most of the time formulars may not appear in the post preview, you can delete it.-->
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      TeX: {
+        equationNumbers: {
+          autoNumber: "AMS"
+        }
+      },
+      tex2jax: {
+        inlineMath: [ ['$','$'] ],
+        displayMath: [ ['$$','$$'] ],
+        processEscapes: true,
+      }
+    });
+  </script>
+  <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+  ></script>
+  {% endif %}
+</div>
