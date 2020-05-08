@@ -6,7 +6,7 @@ TARGET_DIR="$REPO_DIR/_posts"
 echo "$REPO_DIR"
 git checkout source
 git pull
-rm -rf "$TARGET_DIR/*"
+rm -rf "$TARGET_DIR"
 
 today=$(date +'%Y-%m-%d')
 
