@@ -5,7 +5,7 @@
   {% if include.bottom %}
   <hr class="hidden-sm hidden-xs" />
   {% endif %}
-  <h5><a href="{{'/archive/' | prepend: site.baseurl }}">TAGS</a></h5>
+  <!-- <h5><a href="{{'/archive/' | prepend: site.baseurl }}">TAGS</a></h5> -->
   <div class="tags">
     {% assign sorted_tags = site.tags | sort %} {% for tag in sorted_tags %} {% assign zz = tag[1] |
     where: "categories", page.pagination.category | sort %} {% if zz != empty %}
