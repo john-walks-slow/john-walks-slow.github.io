@@ -13,18 +13,25 @@ layout: default
 <div class="container">
   <div class="row">
     <!-- Sidebar Container -->
-    <div class="col-lg-8 col-lg-offset-0 col-md-8 col-md-offset-0 col-sm-12 col-xs-12">
-      <hr />
-      <h5>RECENT</h5>
+    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+      <hr class="visible-lg visible-md" />
+      <h5 class="visible-lg visible-md">RECENT</h5>
       {% include posts.html %} {% include pager.html %}
       <h6>
         <a style="color: #aaaaaa;" href="{{'/archive/' | prepend: site.baseurl }}"
           >> 按标签检索文章</a
         >
       </h6>
+      <br />
+      <br />
     </div>
+
     <!-- PostList Container -->
-    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 postlist-container">
+    <div
+      class="col-lg-4 col-md-4 col-sm-6 col-xs-10 col-md-offset-0 col-lg-offset-0 col-sm-offset-3 col-xs-offset-1 postlist-container"
+    >
+      <hr class="visible-lg visible-md" />
+      <h5 class="visible-lg visible-md">ABOUT ME</h5>
       {% include short-about.html %}
       <!-- Friends Blog -->
       <!-- {% include friends.html %} -->

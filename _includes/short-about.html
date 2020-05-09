@@ -1,9 +1,18 @@
-<hr />
-<h5>ABOUT ME</h5>
 <div class="short-about">
   {% if site.avatar %}
-  <img src="{{site.avatar}}" style="width: 100px;" />
+  <img
+    src="{{site.avatar}}"
+    style="
+      width: 75px;
+      vertical-align: top;
+      margin-right: 20px;
+      margin-top: 5px;
+      border-radius: 50%;
+    "
+  />
   {% endif %} {% if site.sidebar-about-description %}
-  <p>{{site.sidebar-about-description}}</p>
+  <p style="padding: 5px 0px 0px 5px; margin-top: 10px; display: inline-block;">
+    {{site.sidebar-about-description}}
+  </p>
   {% endif %}
 </div>
