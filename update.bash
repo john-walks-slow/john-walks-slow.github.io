@@ -6,7 +6,6 @@ TARGET_DIR="$REPO_DIR/_posts"
 echo "$REPO_DIR"
 git checkout source
 git pull
-rm -rf "$TARGET_DIR"
 
 today=$(date +'%Y-%m-%d')
 
@@ -15,11 +14,11 @@ for folder in *; do
     if [ -d "$folder" ] ; then
         cd "$folder"
         for file in *; do
-            if [[ "$file" =~ [^.*@publish\.md$] ]]; then
+            if [[ "$file" == *@publish.md ]]; then
                 date=$(date -r "$file" "+%Y-%m-%d")
                 name="$date-${file// /-}"
                 echo "Generated: ${name%@publish.*}.md"
-                mkdir -p "$TARGET_DIR/$folder" && cp "$file" "$TARGET_DIR/$folder/${name%@publish.*}.md"
+                mkdir -p "$TARGET_DIR/$folder" && cp -rf "$file" "$TARGET_DIR/$folder/${name%@publish.*}.md"
             else
                 :
             fi
