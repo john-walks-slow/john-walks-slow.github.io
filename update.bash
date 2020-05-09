@@ -30,3 +30,7 @@ for folder in *; do
 done
 
 echo "Posts Updated!"
+
+cd "$REPO_DIR"
+
+yarn build

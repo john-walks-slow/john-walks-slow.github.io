@@ -8,8 +8,6 @@ git push
 
 echo "Source Pushed!"
 
-yarn build
-
 cd _site
 git checkout master
 git pull
