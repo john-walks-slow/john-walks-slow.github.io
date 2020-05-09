@@ -68,7 +68,7 @@ netease_comment: false
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: 'hihi！我是小齐。我有很多的问题。我喜欢玩音乐，玩电脑和想事情。'
+sidebar-about-description: 'hello！我是小齐。<br>我有很多的问题。<br>我喜欢玩音乐，玩电脑和想事情！'
 sidebar-avatar: /img/avatar.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
