@@ -26,6 +26,11 @@ layout: default
       <hr />
       <h5>RECENT</h5>
       {% include posts.html %} {% include pager.html %}
+      <h6>
+        <a style="color: #aaaaaa;" href="{{'/archive/' | prepend: site.baseurl }}"
+          >> 按标签检索文章</a
+        >
+      </h6>
     </div>
   </div>
 
@@ -60,12 +65,11 @@ layout: default
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         <!-- SNS Link -->
         {% include sns-links.html center=true %}
-
-        <p class="copyright text-muted">
+        <h5 class="copyright text-muted">
           找我玩 ↑
           <!-- <br>
                   Powered by <a href="https://jekyllrb.com/">Jekyll</a> | -->
-        </p>
+        </h5>
       </div>
     </div>
   </div>
