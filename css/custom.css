@@ -18,6 +18,7 @@
 .text-icon {
   font-family: fantasy, Impact, Charcoal, monospace, Helvetica, Arial, sans-serif !important;
   font-size: 0.8em !important;
+  font-weight: bold;
 }
 
 footer {
