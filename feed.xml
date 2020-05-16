@@ -5,9 +5,36 @@
     <description>小齐的Blog | 没用的玩、没结果的思考、记不住的记录</description>
     <link>https://john-walks-slow.github.io//</link>
     <atom:link href="https://john-walks-slow.github.io//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 16 May 2020 19:05:06 +0800</pubDate>
-    <lastBuildDate>Sat, 16 May 2020 19:05:06 +0800</lastBuildDate>
+    <pubDate>Sat, 16 May 2020 19:06:38 +0800</pubDate>
+    <lastBuildDate>Sat, 16 May 2020 19:06:38 +0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>做什么？</title>
+        <description>&lt;p&gt;（开心值+意义值）*难度值&lt;/p&gt;
+
+&lt;p&gt;纪录片：5~8+8~10 * 0.8= 12.4&lt;/p&gt;
+
+&lt;p&gt;剪辑：7~8+5~8 * 0.9= 12.6&lt;/p&gt;
+
+&lt;p&gt;全职乐队：6~9+6 * 0.8 = 10.8&lt;/p&gt;
+
+&lt;p&gt;IT：5~7+5~8 * 0.8= 10&lt;/p&gt;
+
+&lt;p&gt;便利店：6+6 * 1 = 12&lt;/p&gt;
+
+&lt;p&gt;&lt;del&gt;罐头音乐：（5~7）+6  * 0.85= 10.2&lt;/del&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 16 May 2020 00:00:00 +0800</pubDate>
+        <link>https://john-walks-slow.github.io//%E6%80%9D%E8%80%83/2020/05/16/%E5%81%9A%E4%BB%80%E4%B9%88/</link>
+        <guid isPermaLink="true">https://john-walks-slow.github.io//%E6%80%9D%E8%80%83/2020/05/16/%E5%81%9A%E4%BB%80%E4%B9%88/</guid>
+        
+        <category>杂文</category>
+        
+        
+        <category>思考</category>
+        
+      </item>
     
       <item>
         <title>用automate实现的音乐小工具</title>
