@@ -25,3 +25,57 @@ footer {
   font-size: 15px !important;
   padding: 0px !important;
 }
+
+.flex-grid {
+  display: flex;
+  padding: 0 1vw;
+  width: 100%;
+  justify-content: space-evenly;
+  -webkit-flex-direction: row;
+  -webkit-flex-wrap: wrap;
+}
+.flex-grid .col {
+  width: 45vw;
+}
+.card{
+  border-radius: 1vw;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0,0,0,.16), 0 0 6px rgba(0,0,0,.10);
+  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  /* padding: 14px 80px 18px 36px; */
+  cursor: pointer;
+  background-size: cover;
+  height:35vw;
+  margin:7vw;
+}
+
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.24), 0 4px 8px rgba(0,0,0,.12);
+}
+.card-description{
+  pointer-events: none;
+  position: absolute;
+  top: 0px;
+  left:0px;
+  right: 0px;
+  border-top-left-radius: 1vw;
+  border-top-right-radius: 1vw;
+  color: white;
+  padding: 5px;
+  font-size: 0.5vw;
+  /* background-color: #00000090; */
+}
+.card-description h4{
+  font-size:1.3vw
+}
+@media (max-width: 400px) {
+  .flex-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+  .flex-grid .col {
+    width: 90%;
+    margin:3vw
+  }
+}

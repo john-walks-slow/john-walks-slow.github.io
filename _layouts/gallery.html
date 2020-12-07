@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+<!-- Page Header -->
+{% include intro-header.html type='page' %}
+{% assign sorted = site.data.works %}
+<div class="flex-grid">
+  {% for work in sorted %}
+  <div class="col card"
+      style="background-image: url({{ site.baseurl }}/img/{{work[1].img }})"
+      {%- if work[1].type == 'link' -%}
+      onclick="window.open('{{work[1].url}}','mywindow')"
+      {%- endif -%}>
+    {%- if work[1].type == 'bilibili' -%}
+    <iframe src="{{work[1].player}}"
+      style="width: 100%;height: 100%;
+      border-radius: 1vw;
+      /* border-top-left-radius: 5px;
+      border-top-right-radius: 5px; */
+      "
+      scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+    {%- endif -%}
+    <div class="card-description">
+      <h4>{{work[0]}}</h4>
+      {{work[1].description}}</div>  
+  </div>
+  {% endfor %}
+</div>
+  
+{% if site.page-mathjax %}
+<!-- Add support for Mathjax by Voleking-->
+<!-- If you want to see formulars well in post preview, Maybe you should add this.-->
+<!-- However, most of the time formulars may not appear in the post preview, you can delete it.-->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    TeX: {
+      equationNumbers: {
+        autoNumber: "AMS"
+      }
+    },
+    tex2jax: {
+      inlineMath: [ ['$','$'] ],
+      displayMath: [ ['$$','$$'] ],
+      processEscapes: true,
+    }
+  });
+</script>
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+></script>
+{% endif %}
