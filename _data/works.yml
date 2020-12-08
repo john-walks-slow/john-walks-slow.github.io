@@ -44,6 +44,12 @@
   player: '//player.bilibili.com/player.html?aid=796260138&bvid=BV1wC4y1h76i&cid=210129620&page=1'
   description: '独立做完的短片.. 我不知道，我不喜欢看电影'
   date: 2019 / 05
+豚豚翻译器:
+  url: 'https://john-walks-slow.github.io/dolphin-translator/'
+  type: 'link'
+  description: '海豚刑警❤❤ 0.0'
+  img: 'dolphin.png'
+  date: 2019
 唱歌比赛宣传片:
   url: 'https://www.bilibili.com/s/video/BV1x54y1q7sp'
   type: 'bilibili'
