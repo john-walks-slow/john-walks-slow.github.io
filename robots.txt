@@ -1,1 +1,1 @@
-Sitemap: http://localhost:2085/sitemap.xml
+Sitemap: https://john-walks-slow.github.io//sitemap.xml
