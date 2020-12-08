@@ -15,16 +15,22 @@ layout: default
     {%- if work[1].type == 'bilibili' -%}
     <iframe src="{{work[1].player}}"
       style="width: 100%;height: 100%;
-      border-radius: 1vw;
+      /* border-radius: 1vw; */
       /* border-top-left-radius: 5px;
       border-top-right-radius: 5px; */
       "
       scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
     {%- endif -%}
-    <div class="card-description">
-      <h4>{{work[0]}}</h4>
-      {{work[1].description}}</div>  
+    <div class="card-inner-description">
+      {{work[0]}}&nbsp;&nbsp;<i>{{work[1].date}}</i>
+    </div>  
   </div>
+  <div class="card-description">
+    <h4>{{work[0]}}</h4>
+    <p class="card-date"><i>{{work[1].date}}</i></p>
+    <p class="card-detail">{{work[1].description}}</p>
+  </div>  
+  <!-- <hr class="solid"> -->
   {% endfor %}
 </div>
   
