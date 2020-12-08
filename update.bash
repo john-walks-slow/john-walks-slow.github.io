@@ -1,6 +1,5 @@
 #!/bin/bash
-
-SOURCE_DIR="/mnt/d/OneDrive - The Chinese University of Hong Kong/2. Writing"
+SOURCE_DIR="/mnt/d/OneDrive - The Chinese University of Hong Kong/1. Personal/博客"
 REPO_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 TARGET_DIR="$REPO_DIR/_posts"
 echo "$REPO_DIR"
