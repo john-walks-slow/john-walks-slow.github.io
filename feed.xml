@@ -3,10 +3,10 @@
   <channel>
     <title>小齐慢慢前进 | John Walks Slow</title>
     <description>小齐的Blog | 没用的玩、没结果的思考、记不住的记录</description>
-    <link>https://john-walks-slow.github.io//</link>
-    <atom:link href="https://john-walks-slow.github.io//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 08 Dec 2020 17:33:13 +0800</pubDate>
-    <lastBuildDate>Tue, 08 Dec 2020 17:33:13 +0800</lastBuildDate>
+    <link>http://localhost:2085/</link>
+    <atom:link href="http://localhost:2085/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 08 Dec 2020 17:58:38 +0800</pubDate>
+    <lastBuildDate>Tue, 08 Dec 2020 17:58:38 +0800</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
@@ -28,8 +28,8 @@
 &lt;p&gt;&lt;del&gt;罐头音乐：（5~7）+6  * 0.85= 10.2&lt;/del&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 16 May 2020 00:00:00 +0800</pubDate>
-        <link>https://john-walks-slow.github.io//%E6%80%9D%E8%80%83/2020/05/16/%E5%81%9A%E4%BB%80%E4%B9%88/</link>
-        <guid isPermaLink="true">https://john-walks-slow.github.io//%E6%80%9D%E8%80%83/2020/05/16/%E5%81%9A%E4%BB%80%E4%B9%88/</guid>
+        <link>http://localhost:2085/%E6%80%9D%E8%80%83/2020/05/16/%E5%81%9A%E4%BB%80%E4%B9%88/</link>
+        <guid isPermaLink="true">http://localhost:2085/%E6%80%9D%E8%80%83/2020/05/16/%E5%81%9A%E4%BB%80%E4%B9%88/</guid>
         
         <category>职业</category>
         
@@ -81,8 +81,8 @@
 &lt;/blockquote&gt;
 </description>
         <pubDate>Sat, 09 May 2020 00:00:00 +0800</pubDate>
-        <link>https://john-walks-slow.github.io//%E7%8E%A9/2020/05/09/%E7%94%A8automate%E5%AE%9E%E7%8E%B0%E7%9A%84%E9%9F%B3%E4%B9%90%E5%B0%8F%E5%B7%A5%E5%85%B7/</link>
-        <guid isPermaLink="true">https://john-walks-slow.github.io//%E7%8E%A9/2020/05/09/%E7%94%A8automate%E5%AE%9E%E7%8E%B0%E7%9A%84%E9%9F%B3%E4%B9%90%E5%B0%8F%E5%B7%A5%E5%85%B7/</guid>
+        <link>http://localhost:2085/%E7%8E%A9/2020/05/09/%E7%94%A8automate%E5%AE%9E%E7%8E%B0%E7%9A%84%E9%9F%B3%E4%B9%90%E5%B0%8F%E5%B7%A5%E5%85%B7/</link>
+        <guid isPermaLink="true">http://localhost:2085/%E7%8E%A9/2020/05/09/%E7%94%A8automate%E5%AE%9E%E7%8E%B0%E7%9A%84%E9%9F%B3%E4%B9%90%E5%B0%8F%E5%B7%A5%E5%85%B7/</guid>
         
         <category>安卓</category>
         
