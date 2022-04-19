@@ -1,5 +1,7 @@
 links:
 - title: 写
   url: /
-- title: Rss
+- title: 关于
+  url: /about
+- title: 订阅
   url: /atom.xml
