@@ -45,14 +45,14 @@ collections:
 defaults:
   -
     scope:
-      path: "1944"
+      path: "_posts/1944"
     values:
       type: "posts"
       layout: "post"
       tags: ["1944"]
   -
     scope:
-      path: "poem"
+      path: "_posts/poem"
     values:
       type: "posts"
       layout: "post"

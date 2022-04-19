@@ -1,6 +1,6 @@
 ---
 layout: page
-title:
+title: “”
 ---
 
 我是小齐。我在矛盾中生活。
