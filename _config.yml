@@ -56,7 +56,7 @@ defaults:
     values:
       type: "posts"
       layout: "post"
-      tags: 诗
+      tags: [诗]
   -
     scope:
       path: ""
