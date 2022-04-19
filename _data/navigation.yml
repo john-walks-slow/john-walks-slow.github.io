@@ -1,7 +1,5 @@
 links:
-- title: Writing
+- title: 写
   url: /
-- title: About
-  url: /about
 - title: Rss
   url: /atom.xml
