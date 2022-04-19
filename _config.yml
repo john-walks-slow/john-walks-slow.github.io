@@ -56,7 +56,7 @@ defaults:
       layout: "page"
   -
     scope:
-      path: "_posts/1944"
+      path: "1944"
     values:
       type: "posts"
       layout: "post"
@@ -64,7 +64,7 @@ defaults:
         - "1944"  
   -
     scope:
-      path: "_posts"
+      path: ""
     values:
       type: "posts"
       layout: "post"
