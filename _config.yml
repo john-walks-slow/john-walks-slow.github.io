@@ -1,7 +1,7 @@
-site: Sidey
+site: 小齐
 url: #yoururl
-title: Sidey
-description: Simple and minimalistic jekyll blogging theme.
+title: 小齐
+description: 在矛盾中写。
 twitter:
   username: #yourusername
   card: summary
@@ -56,7 +56,15 @@ defaults:
       layout: "page"
   -
     scope:
-      path: ""
-      type: "posts"
+      path: "_posts/1944"
     values:
+      type: "posts"
+      layout: "post"
+      tags:
+        - "1944"  
+  -
+    scope:
+      path: "_posts"
+    values:
+      type: "posts"
       layout: "post"
