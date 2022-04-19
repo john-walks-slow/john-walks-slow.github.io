@@ -49,14 +49,14 @@ defaults:
     values:
       type: "posts"
       layout: "post"
-      tags: ["1944"]
+      tags: [1944]
   -
     scope:
       path: "_posts/poem"
     values:
       type: "posts"
       layout: "post"
-      tags: ["诗"]
+      tags: [诗]
   -
     scope:
       path: ""
