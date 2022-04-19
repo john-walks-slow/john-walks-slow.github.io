@@ -63,6 +63,13 @@ defaults:
       tags: ["1944"]
   -
     scope:
+      path: "poem"
+    values:
+      type: "posts"
+      layout: "post"
+      tags: ["诗"]
+  -
+    scope:
       path: ""
     values:
       type: "posts"
