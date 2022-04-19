@@ -49,7 +49,7 @@ defaults:
     values:
       type: "posts"
       layout: "post"
-      tags: ["1944"]
+      tags: [1944]
   -
     scope:
       path: "_posts/poem"
