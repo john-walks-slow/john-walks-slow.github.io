@@ -1,1 +1,5 @@
-Sitemap: https://john-walks-slow.github.io//sitemap.xml
+---
+layout: none
+---
+User-agent: *
+Sitemap: {{ site.url }}/sitemap.xml
