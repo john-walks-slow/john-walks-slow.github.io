@@ -45,17 +45,6 @@ collections:
 defaults:
   -
     scope:
-      path: ""
-    values:
-      layout: "default"
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
-  -
-    scope:
       path: "1944"
     values:
       type: "posts"
@@ -72,5 +61,10 @@ defaults:
     scope:
       path: ""
     values:
-      type: "posts"
-      layout: "post"
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
