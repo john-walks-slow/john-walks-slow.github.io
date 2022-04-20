@@ -34,6 +34,8 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+paginate: 15
+
 collections:
   pages:
     output: true
