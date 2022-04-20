@@ -34,7 +34,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-paginate: 15
+paginate: 20
 
 collections:
   pages:
