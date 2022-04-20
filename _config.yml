@@ -1,7 +1,7 @@
-site: 小齐
+site: 我的写作
 url: https://john-walks-slow.github.io
-title: 小齐
-description: 写作。
+title: 我的写作
+description: 我的写作
 twitter:
   username: #yourusername
   card: summary
@@ -20,19 +20,19 @@ highlighter: none
 
 exclude:
   - .jekyll-cache
-  
+
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
 
 sass:
-  sass_dir:          _sass
-  style:            :compressed
+  sass_dir: _sass
+  style: :compressed
 
 plugins:
   - jekyll-paginate
   - jekyll-seo-tag
-  - jekyll-sitemap  
+  - jekyll-sitemap
 
 collections:
   pages:
@@ -41,29 +41,25 @@ collections:
   posts:
     output: true
     permalink: /:year:month:day/:slug
-  
+
 defaults:
-  -
-    scope:
+  - scope:
       path: "_posts/1944"
     values:
       type: "posts"
       layout: "post"
-      tags: ['1944']
-  -
-    scope:
-      path: "_posts/poem"
+      tags: ["1944"]
+  - scope:
+      path: "_posts/诗"
     values:
       type: "posts"
       layout: "post"
       tags: [诗]
-  -
-    scope:
+  - scope:
       path: ""
     values:
       layout: "default"
-  -
-    scope:
+  - scope:
       path: ""
       type: "pages"
     values:
