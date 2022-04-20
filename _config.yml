@@ -36,6 +36,9 @@ plugins:
 
 paginate: 35
 
+kramdown:
+  hard_wrap: true
+
 collections:
   pages:
     output: true
