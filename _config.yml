@@ -18,6 +18,8 @@ baseurl: ""
 
 highlighter: none
 
+future: true
+
 exclude:
   - .jekyll-cache
 
@@ -34,7 +36,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-paginate: 35
+paginate: 30
 
 kramdown:
   hard_wrap: true
