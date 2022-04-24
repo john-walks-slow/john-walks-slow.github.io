@@ -11,8 +11,14 @@ body {
 	-webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
 	line-height:1.5;
-	font-size: 1rem;
+	font-size: 1.1rem;
 	color: rgb(22, 23, 26);
+}
+
+br {
+    display: block; /* makes it have a width */
+    content: ""; /* clears default height */
+    margin-top: 1.5rem; /* change this to whatever height you want it */
 }
 
 nav ul {
