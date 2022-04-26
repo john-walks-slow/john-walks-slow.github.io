@@ -63,6 +63,11 @@ defaults:
       layout: "post"
       tags: [诗]
   - scope:
+      path: "_posts"
+    values:
+      type: "posts"
+      layout: "post"
+  - scope:
       path: ""
     values:
       layout: "default"
