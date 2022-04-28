@@ -21,7 +21,7 @@ layout: null
    <link href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>{{ site.url }}{{ post.id }}</id>
-   <summary>{{ post.content | strip_html | truncatewords: 50 | xml_escape }}</summary>
+   <summary>{{ post.content | strip_html | xml_escape | truncatewords:50 }}</summary>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
