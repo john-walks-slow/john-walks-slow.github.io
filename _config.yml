@@ -1,5 +1,5 @@
 site: 小齐
-url: 
+url: https://johnwritejohn.vercel.app
 title: 小齐
 description: 我的写作
 twitter:
@@ -8,10 +8,10 @@ twitter:
   creator: #yourusername
 author:
   twitter: #yourusername
-  name: #yourusername
+  name: 小齐
   avatar:
-  email: #youremail
-  url: #yoururl
+  email: john.ren.contact@gmail.com
+  url: https://johnwritejohn.vercel.app
 permalink: pretty
 
 baseurl: ""
