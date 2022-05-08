@@ -14,13 +14,13 @@ module Jekyll
     def initialize(site, base, tag)
       @site = site
       @base = base
-      @dir  = File.join('tag', tag)
+      @dir  = File.join('_pages', tag)
       @name = 'index.html'
 
       self.process(@name)
       self.read_yaml(File.join(base, '_layouts'), 'tag.html')
       self.data['tag'] = tag
-      self.data['title'] = "Tag: #{tag}"
+      self.data['title'] = "标签: #{tag}"
     end
   end
 end
