@@ -39,7 +39,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-paginate: 17
+paginate: 20
 
 kramdown:
   hard_wrap: true
