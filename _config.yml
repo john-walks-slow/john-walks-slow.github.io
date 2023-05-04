@@ -1,13 +1,8 @@
-site: 小齐
+site: John's Blog
 url: https://johnwritejohn.vercel.app
-title: 小齐
-description: 我的写作
-twitter:
-  username: #yourusername
-  card: summary
-  creator: #yourusername
+title: John's Blog
+description: 小齐的博客
 author:
-  twitter: #yourusername
   name: 小齐
   avatar:
   email: john.ren.contact@gmail.com
@@ -32,7 +27,7 @@ compress_html:
 
 sass:
   sass_dir: _sass
-  style: :compressed
+  style: compressed
 
 plugins:
   - jekyll-paginate
