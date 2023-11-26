@@ -1,6 +1,15 @@
 ---
-layout: page
-title: 我
+layout: default
+title: 关于
 ---
 
-我是小齐，我在矛盾。[rss](/atom.xml) [tags](/tags)
+我在矛盾。[rss](/atom.xml) 
+<br>
+<div class="post">
+{% assign tags = site.tags | sort %}
+<ul>
+{% for tag in tags %}
+ <li><a href="/{{ tag | first | slugify }}">{{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }}){% unless forloop.last %}, {% endunless %}</a></li>
+{% endfor %}
+</ul>
+</div>

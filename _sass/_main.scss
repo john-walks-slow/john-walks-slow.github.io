@@ -5,16 +5,25 @@
 	margin:0;
 	padding:0;
 }
+html {
+	font-size: 1.1rem;	
+	scrollbar-gutter: stable both-edges;
+
+}
+
 
 body {
 	font-family: system-ui, sans-serif;
 	-webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
-	line-height:1.5;
+	line-height:1.1rem;
 	font-size: 1rem;
 	color: rgb(22, 23, 26);
 }
 
+nav {
+	position: fixed;
+}
 nav ul {
     border-right: 1px solid #edf2f7;
 }
@@ -31,7 +40,7 @@ pre {
 }
 
 .post p {
-	margin: 1.1rem 0;
+	margin: 1.3rem 0;
 }
 
 .post br {
@@ -47,9 +56,11 @@ pre {
 .post h2:first-child, .project h2:first-child, .photo h2:first-child {
 	margin-top: 0;
 }
-
+.post li {
+	margin: 0.5rem;
+}
 .meta {
-	margin: 2rem 0;
+	margin: 2rem 0 0;
 }
 
 code,pre {
@@ -71,17 +82,20 @@ pre {
 
 img {
 	max-width:100%;
+	// margin: 1.1rem 0;
 }
 
 hr {
 	background: #000;
-    height: 1px;
-    border: 0;
+	height: 1px;
+	border: 0;
+	margin: 1.1rem 0;
 }
 
 header {
-	flex-basis:7.5rem;
-	flex-grow:1;
+	// flex-basis:10.5rem;
+	// flex-grow:1;
+	width:7rem;
 	position:relative;
 }
 
@@ -90,17 +104,20 @@ header a {
 }
 
 header li {
-	margin-bottom: .2rem;
+	margin-bottom: 0.9rem;
 	text-align: right;
 	margin-right: 2rem;
 }
 
 header a.active {
-	font-weight: bold;
+	text-decoration: underline;
 }
 
-header,section {
-	padding:1rem;
+section {
+	padding: 1rem;
+}
+header{
+	padding: 1rem
 }
 
 blockquote {
@@ -139,11 +156,11 @@ strong, b {
 	list-style:none;
 }
 
-.posts li {
+.posts > ul > li {
+	margin-bottom:1rem;
 	align-items:center;
 	display:flex;
 	justify-content:space-between;
-	margin-bottom: .5rem;
 }
 
 .posts li a, .posts li div, .projects li a {
@@ -160,20 +177,27 @@ strong, b {
 	font-size: 0.95em;
 }
 
-.post ul, .project ul, .post ol  {
-	//list-style-position: inside;
+.post ul, .project ul, .post ol, .post li  {
+	list-style-position: inside;
 }
 
 main {
 	display:flex;
 	flex-wrap:wrap;
-	max-width:60rem;
+	max-width:50rem;
 	margin:0.75rem auto;
 	padding:1rem;
 }
 
 
 @media screen and (max-width: 45rem ) {
+header {
+	width: 100%;
+	padding: 0;
+}
+nav{
+	position: relative;
+}
 header li {
     display: inline;
 	margin-right: 1rem;
@@ -183,7 +207,7 @@ header li {
 }
 header ul {
 	border-bottom: 1px solid #edf2f7;
-	padding-bottom: 2rem;	
+	padding-bottom: 1rem;	
 }
 nav ul {
     border-right: 0px;
@@ -196,6 +220,7 @@ nav ul {
 }
 
 section {
+	padding:1rem 1rem 0px;
 	flex-basis:0;
 	flex-grow:999;
 	min-width:70%;

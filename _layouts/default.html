@@ -2,6 +2,7 @@
 layout: compress
 ---
 
+<!-- 带导航的默认布局 -->
 <!DOCTYPE html>
 <html lang="en" >
   {% include head.html %}  
@@ -9,9 +10,9 @@ layout: compress
     <main role="main">
 	    
 	    {% include navigation.html %}
-	    
+      <section>
         {{ content }}
-        	    
+      </section>
     </main>
             
   </body>

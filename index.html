@@ -2,12 +2,15 @@
 layout: default
 ---
 
-<section class="posts">
+<div class="posts">
     <ul>
         {% for post in paginator.posts %}
-        <li><a href="{{ site.baseurl }}{{ post.url }}">
-            {{ post.title }}</a><time datetime="{{ post.date | date_to_xmlschema }}">
-            {{ post.date | date: "%B %-d" }}</time></li>
+            <!-- {% if post.tags contains "archive" %} -->
+            <!-- {% else %} -->
+            <li><a href="{{ site.baseurl }}{{ post.url }}">
+                {{ post.title }}</a><time datetime="{{ post.date | date_to_xmlschema }}">
+                {{ post.date | date: "%B %-d" }}</time></li>
+            {% endif %}
         {% endfor %}
     </ul>
     <div class="pagination">
@@ -25,4 +28,4 @@ layout: default
         <!-- <span class="next ">></span> -->
         {% endif %}
     </div>
-</section>
+</div>

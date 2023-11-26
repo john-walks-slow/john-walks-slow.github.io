@@ -1,12 +1,11 @@
 site: John's Blog
-url: https://johnwritejohn.vercel.app
+url: 
 title: John's Blog
 description: 小齐的博客
 author:
   name: 小齐
   avatar:
   email: john.ren.contact@gmail.com
-  url: https://johnwritejohn.vercel.app
 permalink: pretty
 
 timezone: Asia/Shanghai
@@ -45,32 +44,31 @@ collections:
     permalink: /:name
   posts:
     output: true
-    permalink: /:year:month:day/:slug
+    permalink: /:path
 
 defaults:
   - scope:
-      path: "_posts/1944"
+      path: "_posts/bin"
     values:
       type: "posts"
       layout: "post"
-      tags: ["1944"]
+      tags: ["bin"]
   - scope:
-      path: "_posts/诗"
+      path: "_posts/bad_archive"
     values:
       type: "posts"
       layout: "post"
-      tags: [诗]
+      hidden: true
+      tags: ["archive"]
+  # Fallback
   - scope:
-      path: "_posts"
+      path: "_posts/**"
     values:
       type: "posts"
       layout: "post"
+      tags: ["misc"]
+  # 对于首页，使用 default 布局
   - scope:
       path: ""
     values:
       layout: "default"
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
