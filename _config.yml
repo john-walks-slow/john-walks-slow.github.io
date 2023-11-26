@@ -46,6 +46,8 @@ collections:
     output: true
     permalink: /:path
 
+
+
 defaults:
   - scope:
       path: "_posts/bin"
