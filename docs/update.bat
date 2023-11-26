@@ -5,4 +5,4 @@ set TARGET_DIR=%REPO_DIR%\_posts
 set today=%date:~0,4%/%date:~5,2%/%date:~8,2%
 
 git pull
-jekyll build && git add . && git commit -m "Update articles %today%" && git push
+jekyll build --destination docs && git add . && git commit -m "Update articles %today%" && git push
