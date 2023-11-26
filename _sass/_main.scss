@@ -195,6 +195,12 @@ header {
 	width: 100%;
 	padding: 0;
 }
+section,main {
+	padding: 0.2rem 0.2rem 0px;
+}
+html {
+	font-size: 0.95rem;	
+}
 nav{
 	position: relative;
 }
