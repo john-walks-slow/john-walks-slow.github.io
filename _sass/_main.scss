@@ -195,11 +195,14 @@ header {
 	width: 100%;
 	padding: 0;
 }
-section,main {
+section {
 	padding: 0.2rem 0.2rem 0px;
 }
+main {
+	padding-top: 0.2rem
+}
 html {
-	font-size: 0.95rem;	
+	font-size: 1rem;	
 }
 nav{
 	position: relative;
