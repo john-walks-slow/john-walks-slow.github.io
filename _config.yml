@@ -19,6 +19,7 @@ future: true
 
 exclude:
   - .jekyll-cache
+  - update_blog.bat
 
 compress_html:
   clippings: all
