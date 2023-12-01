@@ -20,8 +20,8 @@
             "id": "/bin/2023-12-01-Windowns%20%E6%AC%A7%E8%B7%AF%E8%AF%8D%E5%85%B8%E7%A0%B4%E8%A7%A3",
             "title": "Windowns 欧路词典破解",
             "summary": null,
-            "content_text": "没想到挺容易破解的做了两件事：  修改与激活相关的注册表  添加防火墙规则，阻止 https 连接 （虽然很粗疏，但貌似可以实现只拦截认证请求，保留 在线词典 / 翻译 / Ai 等功能）把这两个操作做成了 powershell 脚本，可以一键破解。下载链接：https://github.com/john-walks-slow/eudic-crack![[Pasted image 20231201230358.png]]",
-            "content_html": "<p>没想到挺容易破解的<br />做了两件事：</p><ol>  <li>修改与激活相关的注册表</li>  <li>添加防火墙规则，阻止 https 连接 （虽然很粗疏，但貌似可以实现只拦截认证请求，保留 在线词典 / 翻译 / Ai 等功能）</li></ol><p>把这两个操作做成了 powershell 脚本，可以一键破解。<br />下载链接：<br />https://github.com/john-walks-slow/eudic-crack</p><p>![[Pasted image 20231201230358.png]]</p>",
+            "content_text": "没想到挺容易破解的做了两件事：  修改与激活相关的注册表  添加防火墙规则，阻止 https 连接 （虽然很粗疏，但貌似可以实现只拦截认证请求，保留 在线词典 / 翻译 / Ai 等功能）把这两个操作做成了 powershell 脚本，可以一键破解。下载链接：https://github.com/john-walks-slow/eudic-crack",
+            "content_html": "<p>没想到挺容易破解的<br />做了两件事：</p><ol>  <li>修改与激活相关的注册表</li>  <li>添加防火墙规则，阻止 https 连接 （虽然很粗疏，但貌似可以实现只拦截认证请求，保留 在线词典 / 翻译 / Ai 等功能）</li></ol><p>把这两个操作做成了 powershell 脚本，可以一键破解。<br />下载链接：<br />https://github.com/john-walks-slow/eudic-crack</p><p><img src=\"https://i.imgur.com/qS6Dt3q.png\" alt=\"\" /></p>",
             "url": "/bin/2023-12-01-Windowns%20%E6%AC%A7%E8%B7%AF%E8%AF%8D%E5%85%B8%E7%A0%B4%E8%A7%A3",
             
             
