@@ -4,7 +4,7 @@
  <title>John's Blog</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2023-12-01T23:13:57+08:00</updated>
+ <updated>2023-12-10T01:47:37+08:00</updated>
  <id></id>
  <author>
    <name>小齐</name>
@@ -13,16 +13,58 @@
 
  
  <entry>
+   <title>辗转相除法的证明</title>
+   <link href="/think/2023-12-09-%E8%BE%97%E8%BD%AC%E7%9B%B8%E9%99%A4%E6%B3%95%E7%9A%84%E8%AF%81%E6%98%8E"/>
+   <updated>2023-12-09T00:00:00+08:00</updated>
+   <id>/think/辗转相除法的证明</id>
+   <summary>辗转相除法的依据是：
+
+  $\gcd(a,b) = \gcd(b, a \bmod b)\ ...</summary>
+   <content type="html">&lt;p&gt;辗转相除法的依据是：&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;$\gcd(a,b) = \gcd(b, a \bmod b)\ (a,b \in \mathbb{N},\ a&amp;gt;b)$&lt;/li&gt;
+  &lt;li&gt;$\gcd(x,0) = x\ (x \in \mathbb{N})$&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;这里证明依据 1&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;求证：对于 $a,b \in \mathbb{N}\ 且\ a&amp;gt;b$，$a$ 与 $b$ 的最大公因数等于 $b$ 与 $a$、$b$ 余数的最大公因数&lt;/p&gt;
+
+&lt;p&gt;记 $a$、$b$ 余数为 $r$，$r = a - \lfloor \frac{a}{b} \rfloor \cdot b$&lt;/p&gt;
+
+&lt;p&gt;对 $a$ 和 $b$ 的任意公因数 $d$，有 $a=md$，$b=nd$ $(m,n,d \in \mathbb{N})$&lt;br /&gt;
+$r = (m - \lfloor \frac{a}{b} \rfloor \cdot n)d$&lt;br /&gt;
+$\because m - \lfloor \frac{a}{b} \rfloor \cdot n = \frac{a}{b} \cdot n - \lfloor \frac{a}{b} \rfloor \cdot n \in \mathbb{N}$&lt;br /&gt;
+$\therefore d$ 也是 $b$ 与 $r$ 的公因数&lt;/p&gt;
+
+&lt;p&gt;对 $b$ 和 $r$ 的任意公因数 $d’$，有 $b=m’d’$，$r=n’d’$ $(m’,n’,d’ \in \mathbb{N})$&lt;br /&gt;
+$a = (\lfloor \frac{a}{b} \rfloor \cdot m’ + n’)d’$&lt;br /&gt;
+$\because \lfloor \frac{a}{b} \rfloor \cdot m’ + n’ \in \mathbb{N}$&lt;br /&gt;
+$\therefore d’$ 也是 $a$ 与 $b$ 的公因数&lt;/p&gt;
+
+&lt;p&gt;综上所述，$a$ 与 $b$ 的公因数都是 $b$ 与 $r$ 的公因数，反之亦然。&lt;br /&gt;
+$a$ 与 $b$ 的公因数集合和 $b$ 与 $r$ 的公因数集合相同。&lt;br /&gt;
+因此 $a$ 与 $b$ 的最大公因数也是 $b$ 与 $r$ 的最大公因数。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Windowns 欧路词典破解</title>
    <link href="/bin/2023-12-01-Windowns%20%E6%AC%A7%E8%B7%AF%E8%AF%8D%E5%85%B8%E7%A0%B4%E8%A7%A3"/>
    <updated>2023-12-01T00:00:00+08:00</updated>
    <id>/bin/Windowns 欧路词典破解</id>
-   <summary>没想到挺容易破解的
-做了两件事：
+   <summary>
+  更新：垃圾文章，破解不了，防火墙没用。还是用免费版，两个扩展词库只查英语够用
 
-  修改与激活相关的注册表
-  添加防火墙规则，阻止 ht...</summary>
-   <content type="html">&lt;p&gt;没想到挺容易破解的&lt;br /&gt;
+
+没想到...</summary>
+   <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;更新：垃圾文章，破解不了，防火墙没用。还是用免费版，两个扩展词库只查英语够用&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;没想到挺容易破解的&lt;br /&gt;
 做了两件事：&lt;/p&gt;
 &lt;ol&gt;
   &lt;li&gt;修改与激活相关的注册表&lt;/li&gt;
@@ -559,16 +601,6 @@ A
    <id>/bad_archive/1944/1955 跑鞋</id>
    <summary>趴在有一根头发和一粒饭粒的被子上，用小臂支撑上身，左右拇指点手机。身体挡住光，制造了不规则的阴...</summary>
    <content type="html">&lt;p&gt;趴在有一根头发和一粒饭粒的被子上，用小臂支撑上身，左右拇指点手机。身体挡住光，制造了不规则的阴影，阴影不是纯黑，说明光线找到了路线。头戴耳机漏音，勉强听出，一首背景音乐，高频有弦乐，耳机线很长，垂到地面，弯成“W”，不被洁癖控制。笔记本呼啸，“呼~”，安静一会儿，“呼~”。它过时，可能中毒了，不知道健康状况，它霸道地呼。我和我的运动鞋，很扁，一眼不看就能写，它常在视野边缘，一只站着一只倒了。我和它，不能放任自己，不能控制自己，依据的是惯性和加速度。想：跑得快的是不动的，呆得久的是不停的。我小心地写我和东西，没有大肚写我和人。我们说了很久，关于后天和大后天，小聪明们不起作用。论坛上喜欢的文字很多。做了一天事，心安理得，幸运。觉得自己有罪，没脸，有没有真的自责过？运动鞋，希望它不东倒西歪。希望它零零落落。希望它整整齐齐。&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>1954 降落</title>
-   <link href="/bad_archive/1944/2022-04-21-1954%20%E9%99%8D%E8%90%BD"/>
-   <updated>2022-04-21T00:00:00+08:00</updated>
-   <id>/bad_archive/1944/1954 降落</id>
-   <summary>对于没有翅膀的生物，真正的飞行是罕见的。望着天空中唯一的太阳，我打开了滑翔翼，风在耳边，多么自...</summary>
-   <content type="html">&lt;p&gt;对于没有翅膀的生物，真正的飞行是罕见的。望着天空中唯一的太阳，我打开了滑翔翼，风在耳边，多么自由。我的目的地离这十五公里远，是个小村子，我去那里是为了见珍妮。顾名思义，珍妮是对我来说最珍贵的人。远处山腰上，隐约能看见灰灰的房子和棕色的屋顶，有一半被阳光照亮，另一半暗暗的，在暗暗的地方散步也许会很凉快。我固定了滑翔翼，微微侧身，控制重心准备降落。我没想物理也没想哲学，时间不允许我分情况讨论了，现在就是我的一种可能。我想去的首先是太阳，比太阳更远的地方还有更大更亮的星星，有时候会忘记它们。这次飞行将持续很久，要是我们在一起，就能一起去很多地方了。这句话里有漏洞，把它反过来说也能找到漏洞，但等会儿和珍妮见面了，我要说给她听。我读了一首诗，写的是1954年前的历史，我读得哈哈大笑。你知道如何在不得不起床时起床吗？平时的我觉得晚点起床也没事，但现在我不得不起床了。在不得不起床时，你就能学会在不得不起床时起床。&lt;/p&gt;
 </content>
  </entry>
  

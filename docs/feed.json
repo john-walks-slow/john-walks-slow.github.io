@@ -17,11 +17,35 @@
 "items": [
     
         {
+            "id": "/think/2023-12-09-%E8%BE%97%E8%BD%AC%E7%9B%B8%E9%99%A4%E6%B3%95%E7%9A%84%E8%AF%81%E6%98%8E",
+            "title": "辗转相除法的证明",
+            "summary": null,
+            "content_text": "辗转相除法的依据是：  $\\gcd(a,b) = \\gcd(b, a \\bmod b)\\ (a,b \\in \\mathbb{N},\\ a&gt;b)$  $\\gcd(x,0) = x\\ (x \\in \\mathbb{N})$这里证明依据 1求证：对于 $a,b \\in \\mathbb{N}\\ 且\\ a&gt;b$，$a$ 与 $b$ 的最大公因数等于 $b$ 与 $a$、$b$ 余数的最大公因数记 $a$、$b$ 余数为 $r$，$r = a - \\lfloor \\frac{a}{b} \\rfloor \\cdot b$对 $a$ 和 $b$ 的任意公因数 $d$，有 $a=md$，$b=nd$ $(m,n,d \\in \\mathbb{N})$$r = (m - \\lfloor \\frac{a}{b} \\rfloor \\cdot n)d$$\\because m - \\lfloor \\frac{a}{b} \\rfloor \\cdot n = \\frac{a}{b} \\cdot n - \\lfloor \\frac{a}{b} \\rfloor \\cdot n \\in \\mathbb{N}$$\\therefore d$ 也是 $b$ 与 $r$ 的公因数对 $b$ 和 $r$ 的任意公因数 $d’$，有 $b=m’d’$，$r=n’d’$ $(m’,n’,d’ \\in \\mathbb{N})$$a = (\\lfloor \\frac{a}{b} \\rfloor \\cdot m’ + n’)d’$$\\because \\lfloor \\frac{a}{b} \\rfloor \\cdot m’ + n’ \\in \\mathbb{N}$$\\therefore d’$ 也是 $a$ 与 $b$ 的公因数综上所述，$a$ 与 $b$ 的公因数都是 $b$ 与 $r$ 的公因数，反之亦然。$a$ 与 $b$ 的公因数集合和 $b$ 与 $r$ 的公因数集合相同。因此 $a$ 与 $b$ 的最大公因数也是 $b$ 与 $r$ 的最大公因数。",
+            "content_html": "<p>辗转相除法的依据是：</p><ol>  <li>$\\gcd(a,b) = \\gcd(b, a \\bmod b)\\ (a,b \\in \\mathbb{N},\\ a&gt;b)$</li>  <li>$\\gcd(x,0) = x\\ (x \\in \\mathbb{N})$</li></ol><p>这里证明依据 1</p><hr /><p>求证：对于 $a,b \\in \\mathbb{N}\\ 且\\ a&gt;b$，$a$ 与 $b$ 的最大公因数等于 $b$ 与 $a$、$b$ 余数的最大公因数</p><p>记 $a$、$b$ 余数为 $r$，$r = a - \\lfloor \\frac{a}{b} \\rfloor \\cdot b$</p><p>对 $a$ 和 $b$ 的任意公因数 $d$，有 $a=md$，$b=nd$ $(m,n,d \\in \\mathbb{N})$<br />$r = (m - \\lfloor \\frac{a}{b} \\rfloor \\cdot n)d$<br />$\\because m - \\lfloor \\frac{a}{b} \\rfloor \\cdot n = \\frac{a}{b} \\cdot n - \\lfloor \\frac{a}{b} \\rfloor \\cdot n \\in \\mathbb{N}$<br />$\\therefore d$ 也是 $b$ 与 $r$ 的公因数</p><p>对 $b$ 和 $r$ 的任意公因数 $d’$，有 $b=m’d’$，$r=n’d’$ $(m’,n’,d’ \\in \\mathbb{N})$<br />$a = (\\lfloor \\frac{a}{b} \\rfloor \\cdot m’ + n’)d’$<br />$\\because \\lfloor \\frac{a}{b} \\rfloor \\cdot m’ + n’ \\in \\mathbb{N}$<br />$\\therefore d’$ 也是 $a$ 与 $b$ 的公因数</p><p>综上所述，$a$ 与 $b$ 的公因数都是 $b$ 与 $r$ 的公因数，反之亦然。<br />$a$ 与 $b$ 的公因数集合和 $b$ 与 $r$ 的公因数集合相同。<br />因此 $a$ 与 $b$ 的最大公因数也是 $b$ 与 $r$ 的最大公因数。</p>",
+            "url": "/think/2023-12-09-%E8%BE%97%E8%BD%AC%E7%9B%B8%E9%99%A4%E6%B3%95%E7%9A%84%E8%AF%81%E6%98%8E",
+            
+            
+            
+            
+            
+            "date_published": "2023-12-09T00:00:00+08:00",
+            "date_modified": "2023-12-09T00:00:00+08:00",
+            
+                "author":  {
+                "name": "小齐",
+                "url": null,
+                "avatar": null
+                }
+                
+            
+        },
+    
+        {
             "id": "/bin/2023-12-01-Windowns%20%E6%AC%A7%E8%B7%AF%E8%AF%8D%E5%85%B8%E7%A0%B4%E8%A7%A3",
             "title": "Windowns 欧路词典破解",
             "summary": null,
-            "content_text": "没想到挺容易破解的做了两件事：  修改与激活相关的注册表  添加防火墙规则，阻止 https 连接 （虽然很粗疏，但貌似可以实现只拦截认证请求，保留 在线词典 / 翻译 / Ai 等功能）把这两个操作做成了 powershell 脚本，可以一键破解。下载链接：https://github.com/john-walks-slow/eudic-crack",
-            "content_html": "<p>没想到挺容易破解的<br />做了两件事：</p><ol>  <li>修改与激活相关的注册表</li>  <li>添加防火墙规则，阻止 https 连接 （虽然很粗疏，但貌似可以实现只拦截认证请求，保留 在线词典 / 翻译 / Ai 等功能）</li></ol><p>把这两个操作做成了 powershell 脚本，可以一键破解。<br />下载链接：<br />https://github.com/john-walks-slow/eudic-crack</p><p><img src=\"https://i.imgur.com/qS6Dt3q.png\" alt=\"\" /></p>",
+            "content_text": "  更新：垃圾文章，破解不了，防火墙没用。还是用免费版，两个扩展词库只查英语够用没想到挺容易破解的做了两件事：  修改与激活相关的注册表  添加防火墙规则，阻止 https 连接 （虽然很粗疏，但貌似可以实现只拦截认证请求，保留 在线词典 / 翻译 / Ai 等功能）把这两个操作做成了 powershell 脚本，可以一键破解。下载链接：https://github.com/john-walks-slow/eudic-crack",
+            "content_html": "<blockquote>  <p>更新：垃圾文章，破解不了，防火墙没用。还是用免费版，两个扩展词库只查英语够用</p></blockquote><p>没想到挺容易破解的<br />做了两件事：</p><ol>  <li>修改与激活相关的注册表</li>  <li>添加防火墙规则，阻止 https 连接 （虽然很粗疏，但貌似可以实现只拦截认证请求，保留 在线词典 / 翻译 / Ai 等功能）</li></ol><p>把这两个操作做成了 powershell 脚本，可以一键破解。<br />下载链接：<br />https://github.com/john-walks-slow/eudic-crack</p><p><img src=\"https://i.imgur.com/qS6Dt3q.png\" alt=\"\" /></p>",
             "url": "/bin/2023-12-01-Windowns%20%E6%AC%A7%E8%B7%AF%E8%AF%8D%E5%85%B8%E7%A0%B4%E8%A7%A3",
             
             
@@ -839,30 +863,6 @@
             "content_text": "《心情》下午，起床后读到你的文字让我觉得安心《理解》对一只小猫说“我爱你”它听不懂摸摸它的头它就懂了对一只兔子说“自由”它听不懂打开它的笼子它就懂了",
             "content_html": "<p>《心情》<br />下午，起床后<br />读到你的文字<br />让我觉得安心</p><p>《理解》<br />对一只小猫说<br />“我爱你”<br />它听不懂<br />摸摸它的头<br />它就懂了<br />对一只兔子说<br />“自由”<br />它听不懂<br />打开它的笼子<br />它就懂了</p>",
             "url": "/bad_archive/%E8%AF%97/2022-04-16-%E5%BF%83%E6%83%85%E4%B8%8E%E7%90%86%E8%A7%A3",
-            
-            
-            
-            
-            
-            "date_published": "2022-04-16T00:00:00+08:00",
-            "date_modified": "2022-04-16T00:00:00+08:00",
-            
-                "author":  {
-                "name": "小齐",
-                "url": null,
-                "avatar": null
-                }
-                
-            
-        },
-    
-        {
-            "id": "/bad_archive/%E8%AF%97/2022-04-16-%E5%96%84%E8%89%AF",
-            "title": "善良",
-            "summary": null,
-            "content_text": "《暗流》一片大海拆掉水坝是一片更大的大海《水桶》人们说没有短板的水桶不会漏水他们不知道我的强项是漏水《共同富裕》“在一个充满爱的社会，不会有贫富差距。”一个法国人吃着冰激凌这么说《侵略》法国和德国打仗的时候我也是士兵之一那时我们准备偷袭慕尼黑的草地好多人流血好多人死去于是，我在战场上喊：“各位别打了吧！”对面传来一声：“好。”《天气》晚上，不知从哪飘来一朵乌云很快，昨天的天气预报就不适用了《天气2》以为今天会下雨我带了一把伞出门现在我用它来挡太阳《善良》我是一道光照亮我的方向黑暗只存在于被封闭的地方",
-            "content_html": "<p>《暗流》<br />一片大海<br />拆掉水坝<br />是一片更大的大海</p><p>《水桶》<br />人们说<br />没有短板的水桶不会漏水<br />他们不知道<br />我的强项是漏水</p><p>《共同富裕》<br />“在一个充满爱的社会，<br />不会有贫富差距。”<br />一个法国人吃着冰激凌这么说</p><p>《侵略》<br />法国和德国打仗的时候<br />我也是士兵之一<br />那时我们准备<br />偷袭慕尼黑的草地<br />好多人流血<br />好多人死去<br />于是，我在战场上喊：<br />“各位别打了吧！”<br />对面传来一声：<br />“好。”</p><p>《天气》<br />晚上，<br />不知从哪飘来一朵乌云<br />很快，<br />昨天的天气预报就不适用了</p><p>《天气2》<br />以为今天会下雨<br />我带了一把伞出门<br />现在我用它<br />来挡太阳</p><p>《善良》<br />我是一道光<br />照亮我的方向<br />黑暗只存在于<br />被封闭的地方</p>",
-            "url": "/bad_archive/%E8%AF%97/2022-04-16-%E5%96%84%E8%89%AF",
             
             
             
