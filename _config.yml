@@ -1,5 +1,5 @@
 site: John's Blog
-url: 
+url:
 title: John's Blog
 description: 小齐的博客
 author:
@@ -9,7 +9,6 @@ author:
 permalink: pretty
 
 timezone: Asia/Shanghai
-
 
 baseurl: ""
 
@@ -38,6 +37,7 @@ paginate: 18
 
 kramdown:
   hard_wrap: true
+  math_engine: mathjax
 
 collections:
   pages:
@@ -46,8 +46,6 @@ collections:
   posts:
     output: true
     permalink: /:path
-
-
 
 defaults:
   - scope:
