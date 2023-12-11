@@ -37,7 +37,7 @@ paginate: 18
 
 kramdown:
   hard_wrap: true
-  math_engine: mathjax
+  math_engine: katex
 
 collections:
   pages:
