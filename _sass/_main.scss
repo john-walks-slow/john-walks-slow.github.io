@@ -7,13 +7,26 @@
   padding: 0;
   font-family: sans-serif;
 }
+
 html {
   font-size: 1.1rem;
   scrollbar-gutter: stable both-edges;
 }
+
 // :root {
 //   color-scheme: light dark;
 // }
+:root{
+  --text-color: #121212;
+  --line-color: #12121250;
+  --background-color: #fafafa;
+
+  @media (prefers-color-scheme: dark) {
+    --text-color: #eeeeee;
+  --line-color: #eeeeee50;
+    --background-color: #1f1f1f;
+  }
+}
 
 body {
   font-family: system-ui, sans-serif;
@@ -21,19 +34,17 @@ body {
   text-rendering: optimizeLegibility;
   line-height: 1.1em;
   font-size: 1rem;
-  color: #121212;
-  background-color: #fafafa;
-  @media (prefers-color-scheme: dark) {
-      color: #eeeeee;
-      background-color: #2b2b2c;
-  }
+  color: var(--text-color);
+  background-color: var(--background-color);
+ 
 }
 
 nav {
   position: fixed;
 }
+
 nav ul {
-  border-right: 1.4px solid #99999940;
+  border-right: 1.4px solid var(--line-color);
 }
 
 a {
@@ -48,11 +59,13 @@ pre {
 
 .post {
   position: relative;
-  top: -0.4em;
+  top: -0.4rem;
   line-height: 1.75em;
+
   p {
     margin: 1em 0 0;
   }
+
   h2:first-child,
   .project h2:first-child,
   .photo h2:first-child {
@@ -60,13 +73,15 @@ pre {
   }
 
   code {
-    background: #99999940;
+    background: #aaaaaa30;
   }
+
   pre > code {
     background: none;
   }
+
   pre {
-    background: #99999940;
+    background: #aaaaaa30;
   }
 
   code {
@@ -94,7 +109,7 @@ pre {
 }
 
 hr {
-  background: #67676760;
+  background: var(--line-color);
   height: 1px;
   border: 0;
   margin: 1.1rem 0;
@@ -124,6 +139,7 @@ header a.active {
 section {
   padding: 1rem;
 }
+
 header {
   padding: 1rem;
 }
@@ -136,11 +152,9 @@ blockquote {
 
 h1,
 h2,
-h3,
-h4,
-h5 {
+h3 {
   line-height: 1.5em;
-  margin: 1rem 0;
+  margin: 1.25em 0 0.75em;
   font-weight: 600;
 }
 
@@ -172,7 +186,7 @@ header ul {
 }
 
 .posts > ul > li {
-  margin-bottom: 0.83rem;
+  margin-bottom: 0.83em;
   align-items: center;
   display: flex;
   justify-content: space-between;
@@ -192,7 +206,7 @@ header ul {
   padding-left: 1rem;
   white-space: nowrap;
   font-variant-numeric: tabular-nums;
-  font-size: 0.95em;
+  font-size: 0.95rem;
 }
 
 .post ul,
@@ -200,6 +214,7 @@ header ul {
 .post ol,
 .post li {
   list-style-position: inside;
+  padding-left: 0.5rem;
 }
 
 main {
@@ -215,33 +230,42 @@ main {
     width: 100%;
     padding: 0;
   }
+
   section {
     padding: 0px !important;
     padding-top: 1.25rem !important;
   }
+
   main {
     padding-top: 0.2rem;
   }
+
   html {
     font-size: 1rem;
   }
+
   nav {
     position: relative;
   }
+
   header li {
     display: inline;
     margin-right: 0.75rem;
   }
+
   .logo {
     padding-bottom: 1rem;
   }
+
   header ul {
-    border-bottom: 1px solid #67676760;
+    border-bottom: 1px solid var(--line-color);
     padding-bottom: 0.65rem;
   }
+
   nav ul {
     border-right: 0px;
   }
+
   .photos ul {
     margin-top: 0.5rem;
   }
@@ -263,8 +287,28 @@ figcaption {
 .pagination {
   text-align: right;
 }
+
 .previous {
 }
+
 .next {
   margin-left: 4px;
+}
+
+.toc {
+  background: #aaaaaa30;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.75rem;
+  display: none;
+  max-width: 400px;
+
+  & li {
+    line-height: 1.2em;
+  }
+}
+
+.toc:has(ul) {
+  display: block;
 }

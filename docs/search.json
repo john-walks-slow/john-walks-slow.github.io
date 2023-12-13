@@ -2,11 +2,22 @@
   
     {
 
+      "title"    : "Chromebook 10e 心得",
+      "description" : "",
+      "url"      : "/bin/2023-12-13-chromebook%2010e%20%E5%BF%83%E5%BE%97",
+      "category" : "",
+      "tags"     : "折腾",
+      "date"     : "2023-12-13 00:00:00 +0800"
+
+    } ,
+  
+    {
+
       "title"    : "辗转相除法的证明",
       "description" : "",
-      "url"      : "/think/2023-12-09-%E8%BE%97%E8%BD%AC%E7%9B%B8%E9%99%A4%E6%B3%95%E7%9A%84%E8%AF%81%E6%98%8E",
+      "url"      : "/thoughts/2023-12-09-%E8%BE%97%E8%BD%AC%E7%9B%B8%E9%99%A4%E6%B3%95%E7%9A%84%E8%AF%81%E6%98%8E",
       "category" : "",
-      "tags"     : "misc",
+      "tags"     : "想",
       "date"     : "2023-12-09 00:00:00 +0800"
 
     } ,
@@ -17,19 +28,8 @@
       "description" : "",
       "url"      : "/bin/2023-12-01-Windowns%20%E6%AC%A7%E8%B7%AF%E8%AF%8D%E5%85%B8%E7%A0%B4%E8%A7%A3",
       "category" : "",
-      "tags"     : "bin",
+      "tags"     : "折腾",
       "date"     : "2023-12-01 00:00:00 +0800"
-
-    } ,
-  
-    {
-
-      "title"    : "函数",
-      "description" : "",
-      "url"      : "/think/2023-11-13-%E5%87%BD%E6%95%B0",
-      "category" : "",
-      "tags"     : "misc",
-      "date"     : "2023-11-13 00:00:00 +0800"
 
     } ,
   
@@ -39,7 +39,7 @@
       "description" : "",
       "url"      : "/bin/2023-06-10-12Riven%20%E5%90%AF%E5%8A%A8%E7%A0%81%E9%94%99%E8%AF%AF%E3%80%81%E9%97%AA%E9%80%80%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95",
       "category" : "",
-      "tags"     : "bin",
+      "tags"     : "折腾",
       "date"     : "2023-06-10 00:00:00 +0800"
 
     } ,
@@ -48,9 +48,9 @@
 
       "title"    : "转述",
       "description" : "",
-      "url"      : "/bad_archive/%E8%AF%97/2022-05-09-%E8%BD%AC%E8%BF%B0",
+      "url"      : "/bad/%E8%AF%97/2022-05-09-%E8%BD%AC%E8%BF%B0",
       "category" : "",
-      "tags"     : "archive",
+      "tags"     : "坏记录",
       "date"     : "2022-05-09 00:00:00 +0800"
 
     } ,
@@ -59,9 +59,9 @@
 
       "title"    : "成为的人",
       "description" : "",
-      "url"      : "/bad_archive/%E8%AF%97/2022-05-08-%E6%88%90%E4%B8%BA%E7%9A%84%E4%BA%BA",
+      "url"      : "/bad/%E8%AF%97/2022-05-08-%E6%88%90%E4%B8%BA%E7%9A%84%E4%BA%BA",
       "category" : "",
-      "tags"     : "archive",
+      "tags"     : "坏记录",
       "date"     : "2022-05-08 00:00:00 +0800"
 
     } ,
@@ -70,9 +70,9 @@
 
       "title"    : "严肃",
       "description" : "",
-      "url"      : "/bad_archive/%E8%AF%97/2022-05-07-%E4%B8%A5%E8%82%83",
+      "url"      : "/bad/%E8%AF%97/2022-05-07-%E4%B8%A5%E8%82%83",
       "category" : "",
-      "tags"     : "archive",
+      "tags"     : "坏记录",
       "date"     : "2022-05-07 00:00:00 +0800"
 
     } ,
@@ -81,9 +81,9 @@
 
       "title"    : "升旗仪式",
       "description" : "",
-      "url"      : "/bad_archive/2022-05-04-%E5%8D%87%E6%97%97%E4%BB%AA%E5%BC%8F",
+      "url"      : "/bad/2022-05-04-%E5%8D%87%E6%97%97%E4%BB%AA%E5%BC%8F",
       "category" : "",
-      "tags"     : "archive",
+      "tags"     : "坏记录",
       "date"     : "2022-05-04 00:00:00 +0800"
 
     } ,
@@ -92,9 +92,9 @@
 
       "title"    : "1959 中部",
       "description" : "",
-      "url"      : "/bad_archive/1944/2022-05-04-1959%20%E4%B8%AD%E9%83%A8",
+      "url"      : "/bad/1944/2022-05-04-1959%20%E4%B8%AD%E9%83%A8",
       "category" : "",
-      "tags"     : "archive",
+      "tags"     : "坏记录",
       "date"     : "2022-05-04 00:00:00 +0800"
 
     } ,
@@ -103,9 +103,9 @@
 
       "title"    : "事不过三",
       "description" : "",
-      "url"      : "/bad_archive/%E8%AF%97/2022-05-03-%E4%BA%8B%E4%B8%8D%E8%BF%87%E4%B8%89",
+      "url"      : "/bad/%E8%AF%97/2022-05-03-%E4%BA%8B%E4%B8%8D%E8%BF%87%E4%B8%89",
       "category" : "",
-      "tags"     : "archive",
+      "tags"     : "坏记录",
       "date"     : "2022-05-03 00:00:00 +0800"
 
     } ,
@@ -114,9 +114,9 @@
 
       "title"    : "思考",
       "description" : "",
-      "url"      : "/bad_archive/2022-05-03-%E6%80%9D%E8%80%83",
+      "url"      : "/bad/2022-05-03-%E6%80%9D%E8%80%83",
       "category" : "",
-      "tags"     : "archive",
+      "tags"     : "坏记录",
       "date"     : "2022-05-03 00:00:00 +0800"
 
     } ,
@@ -125,9 +125,9 @@
 
       "title"    : "隔离完了的早上",
       "description" : "",
-      "url"      : "/bad_archive/%E8%AF%97/2022-04-30-%E9%9A%94%E7%A6%BB%E5%AE%8C%E4%BA%86%E7%9A%84%E6%97%A9%E4%B8%8A",
+      "url"      : "/bad/%E8%AF%97/2022-04-30-%E9%9A%94%E7%A6%BB%E5%AE%8C%E4%BA%86%E7%9A%84%E6%97%A9%E4%B8%8A",
       "category" : "",
-      "tags"     : "archive",
+      "tags"     : "坏记录",
       "date"     : "2022-04-30 00:00:00 +0800"
 
     } ,
@@ -136,9 +136,9 @@
 
       "title"    : "再让我自我感动一下0430",
       "description" : "",
-      "url"      : "/bad_archive/2022-04-30-%E5%86%8D%E8%AE%A9%E6%88%91%E8%87%AA%E6%88%91%E6%84%9F%E5%8A%A8%E4%B8%80%E4%B8%8B0430",
+      "url"      : "/bad/2022-04-30-%E5%86%8D%E8%AE%A9%E6%88%91%E8%87%AA%E6%88%91%E6%84%9F%E5%8A%A8%E4%B8%80%E4%B8%8B0430",
       "category" : "",
-      "tags"     : "archive",
+      "tags"     : "坏记录",
       "date"     : "2022-04-30 00:00:00 +0800"
 
     } ,
@@ -147,9 +147,9 @@
 
       "title"    : "1958 懦弱",
       "description" : "",
-      "url"      : "/bad_archive/1944/2022-04-28-1958%20%E6%87%A6%E5%BC%B1",
+      "url"      : "/bad/1944/2022-04-28-1958%20%E6%87%A6%E5%BC%B1",
       "category" : "",
-      "tags"     : "archive",
+      "tags"     : "坏记录",
       "date"     : "2022-04-28 00:00:00 +0800"
 
     } ,
@@ -158,9 +158,9 @@
 
       "title"    : "1957 笔记",
       "description" : "",
-      "url"      : "/bad_archive/1944/2022-04-27-1957%20%E7%AC%94%E8%AE%B0",
+      "url"      : "/bad/1944/2022-04-27-1957%20%E7%AC%94%E8%AE%B0",
       "category" : "",
-      "tags"     : "archive",
+      "tags"     : "坏记录",
       "date"     : "2022-04-27 00:00:00 +0800"
 
     } ,
@@ -169,9 +169,9 @@
 
       "title"    : "漏水0426",
       "description" : "",
-      "url"      : "/bad_archive/2022-04-26-%E6%BC%8F%E6%B0%B40426",
+      "url"      : "/bad/2022-04-26-%E6%BC%8F%E6%B0%B40426",
       "category" : "",
-      "tags"     : "archive",
+      "tags"     : "坏记录",
       "date"     : "2022-04-26 00:00:00 +0800"
 
     } ,
@@ -180,9 +180,9 @@
 
       "title"    : "1956 食物",
       "description" : "",
-      "url"      : "/bad_archive/1944/2022-04-25-1956%20%E9%A3%9F%E7%89%A9",
+      "url"      : "/bad/1944/2022-04-25-1956%20%E9%A3%9F%E7%89%A9",
       "category" : "",
-      "tags"     : "archive",
+      "tags"     : "坏记录",
       "date"     : "2022-04-25 00:00:00 +0800"
 
     } ,
@@ -191,9 +191,9 @@
 
       "title"    : "幼稚0425",
       "description" : "",
-      "url"      : "/bad_archive/%E8%AF%97/2022-04-24-%E5%B9%BC%E7%A8%9A0425",
+      "url"      : "/bad/%E8%AF%97/2022-04-24-%E5%B9%BC%E7%A8%9A0425",
       "category" : "",
-      "tags"     : "archive",
+      "tags"     : "坏记录",
       "date"     : "2022-04-24 00:00:00 +0800"
 
     } ,
@@ -202,9 +202,9 @@
 
       "title"    : "爱情废话",
       "description" : "",
-      "url"      : "/bad_archive/%E8%AF%97/2022-04-23-%E7%88%B1%E6%83%85%E5%BA%9F%E8%AF%9D",
+      "url"      : "/bad/%E8%AF%97/2022-04-23-%E7%88%B1%E6%83%85%E5%BA%9F%E8%AF%9D",
       "category" : "",
-      "tags"     : "archive",
+      "tags"     : "坏记录",
       "date"     : "2022-04-23 00:00:00 +0800"
 
     } ,
@@ -213,9 +213,9 @@
 
       "title"    : "1955 跑鞋",
       "description" : "",
-      "url"      : "/bad_archive/1944/2022-04-23-1955%20%E8%B7%91%E9%9E%8B",
+      "url"      : "/bad/1944/2022-04-23-1955%20%E8%B7%91%E9%9E%8B",
       "category" : "",
-      "tags"     : "archive",
+      "tags"     : "坏记录",
       "date"     : "2022-04-23 00:00:00 +0800"
 
     } ,
@@ -224,9 +224,9 @@
 
       "title"    : "1954 降落",
       "description" : "",
-      "url"      : "/bad_archive/1944/2022-04-21-1954%20%E9%99%8D%E8%90%BD",
+      "url"      : "/bad/1944/2022-04-21-1954%20%E9%99%8D%E8%90%BD",
       "category" : "",
-      "tags"     : "archive",
+      "tags"     : "坏记录",
       "date"     : "2022-04-21 00:00:00 +0800"
 
     } ,
@@ -235,9 +235,9 @@
 
       "title"    : "1953 企鹅",
       "description" : "",
-      "url"      : "/bad_archive/1944/2022-04-21-1953%20%E4%BC%81%E9%B9%85",
+      "url"      : "/bad/1944/2022-04-21-1953%20%E4%BC%81%E9%B9%85",
       "category" : "",
-      "tags"     : "archive",
+      "tags"     : "坏记录",
       "date"     : "2022-04-21 00:00:00 +0800"
 
     } ,
@@ -246,9 +246,9 @@
 
       "title"    : "1952 青蛙",
       "description" : "",
-      "url"      : "/bad_archive/1944/2022-04-20-1952%20%E9%9D%92%E8%9B%99",
+      "url"      : "/bad/1944/2022-04-20-1952%20%E9%9D%92%E8%9B%99",
       "category" : "",
-      "tags"     : "archive",
+      "tags"     : "坏记录",
       "date"     : "2022-04-20 00:00:00 +0800"
 
     } ,
@@ -257,9 +257,9 @@
 
       "title"    : "1951 角色",
       "description" : "",
-      "url"      : "/bad_archive/1944/2022-04-20-1951%20%E8%A7%92%E8%89%B2",
+      "url"      : "/bad/1944/2022-04-20-1951%20%E8%A7%92%E8%89%B2",
       "category" : "",
-      "tags"     : "archive",
+      "tags"     : "坏记录",
       "date"     : "2022-04-20 00:00:00 +0800"
 
     } ,
@@ -268,9 +268,9 @@
 
       "title"    : "1950 安眠",
       "description" : "",
-      "url"      : "/bad_archive/1944/2022-04-19-1950%20%E5%AE%89%E7%9C%A0",
+      "url"      : "/bad/1944/2022-04-19-1950%20%E5%AE%89%E7%9C%A0",
       "category" : "",
-      "tags"     : "archive",
+      "tags"     : "坏记录",
       "date"     : "2022-04-19 00:00:00 +0800"
 
     } ,
@@ -279,9 +279,9 @@
 
       "title"    : "1949 海滩",
       "description" : "",
-      "url"      : "/bad_archive/1944/2022-04-19-1949%20%E6%B5%B7%E6%BB%A9",
+      "url"      : "/bad/1944/2022-04-19-1949%20%E6%B5%B7%E6%BB%A9",
       "category" : "",
-      "tags"     : "archive",
+      "tags"     : "坏记录",
       "date"     : "2022-04-19 00:00:00 +0800"
 
     } ,
@@ -290,9 +290,9 @@
 
       "title"    : "1948 控制",
       "description" : "",
-      "url"      : "/bad_archive/1944/2022-04-19-1948%20%E6%8E%A7%E5%88%B6",
+      "url"      : "/bad/1944/2022-04-19-1948%20%E6%8E%A7%E5%88%B6",
       "category" : "",
-      "tags"     : "archive",
+      "tags"     : "坏记录",
       "date"     : "2022-04-19 00:00:00 +0800"
 
     } ,
@@ -301,9 +301,9 @@
 
       "title"    : "1947 核弹",
       "description" : "",
-      "url"      : "/bad_archive/1944/2022-04-18-1947%20%E6%A0%B8%E5%BC%B9",
+      "url"      : "/bad/1944/2022-04-18-1947%20%E6%A0%B8%E5%BC%B9",
       "category" : "",
-      "tags"     : "archive",
+      "tags"     : "坏记录",
       "date"     : "2022-04-18 00:00:00 +0800"
 
     } ,
@@ -312,9 +312,9 @@
 
       "title"    : "1946 站台",
       "description" : "",
-      "url"      : "/bad_archive/1944/2022-04-18-1946%20%E7%AB%99%E5%8F%B0",
+      "url"      : "/bad/1944/2022-04-18-1946%20%E7%AB%99%E5%8F%B0",
       "category" : "",
-      "tags"     : "archive",
+      "tags"     : "坏记录",
       "date"     : "2022-04-18 00:00:00 +0800"
 
     } ,
@@ -323,9 +323,9 @@
 
       "title"    : "1945 夜车",
       "description" : "",
-      "url"      : "/bad_archive/1944/2022-04-18-1945%20%E5%A4%9C%E8%BD%A6",
+      "url"      : "/bad/1944/2022-04-18-1945%20%E5%A4%9C%E8%BD%A6",
       "category" : "",
-      "tags"     : "archive",
+      "tags"     : "坏记录",
       "date"     : "2022-04-18 00:00:00 +0800"
 
     } ,
@@ -334,9 +334,9 @@
 
       "title"    : "深深",
       "description" : "",
-      "url"      : "/bad_archive/%E8%AF%97/2022-04-17-%E6%B7%B1%E6%B7%B1",
+      "url"      : "/bad/%E8%AF%97/2022-04-17-%E6%B7%B1%E6%B7%B1",
       "category" : "",
-      "tags"     : "archive",
+      "tags"     : "坏记录",
       "date"     : "2022-04-17 00:00:00 +0800"
 
     } ,
@@ -345,9 +345,9 @@
 
       "title"    : "开心时写的",
       "description" : "",
-      "url"      : "/bad_archive/%E8%AF%97/2022-04-17-%E5%BC%80%E5%BF%83%E6%97%B6%E5%86%99%E7%9A%84",
+      "url"      : "/bad/%E8%AF%97/2022-04-17-%E5%BC%80%E5%BF%83%E6%97%B6%E5%86%99%E7%9A%84",
       "category" : "",
-      "tags"     : "archive",
+      "tags"     : "坏记录",
       "date"     : "2022-04-17 00:00:00 +0800"
 
     } ,
@@ -356,9 +356,9 @@
 
       "title"    : "1944 春天",
       "description" : "",
-      "url"      : "/bad_archive/1944/2022-04-17-1944%20%E6%98%A5%E5%A4%A9",
+      "url"      : "/bad/1944/2022-04-17-1944%20%E6%98%A5%E5%A4%A9",
       "category" : "",
-      "tags"     : "archive",
+      "tags"     : "坏记录",
       "date"     : "2022-04-17 00:00:00 +0800"
 
     } ,
@@ -367,9 +367,9 @@
 
       "title"    : "空气",
       "description" : "",
-      "url"      : "/bad_archive/%E8%AF%97/2022-04-16-%E7%A9%BA%E6%B0%94",
+      "url"      : "/bad/%E8%AF%97/2022-04-16-%E7%A9%BA%E6%B0%94",
       "category" : "",
-      "tags"     : "archive",
+      "tags"     : "坏记录",
       "date"     : "2022-04-16 00:00:00 +0800"
 
     } ,
@@ -378,9 +378,9 @@
 
       "title"    : "承认",
       "description" : "",
-      "url"      : "/bad_archive/%E8%AF%97/2022-04-16-%E6%89%BF%E8%AE%A4",
+      "url"      : "/bad/%E8%AF%97/2022-04-16-%E6%89%BF%E8%AE%A4",
       "category" : "",
-      "tags"     : "archive",
+      "tags"     : "坏记录",
       "date"     : "2022-04-16 00:00:00 +0800"
 
     } ,
@@ -389,9 +389,9 @@
 
       "title"    : "心情与理解",
       "description" : "",
-      "url"      : "/bad_archive/%E8%AF%97/2022-04-16-%E5%BF%83%E6%83%85%E4%B8%8E%E7%90%86%E8%A7%A3",
+      "url"      : "/bad/%E8%AF%97/2022-04-16-%E5%BF%83%E6%83%85%E4%B8%8E%E7%90%86%E8%A7%A3",
       "category" : "",
-      "tags"     : "archive",
+      "tags"     : "坏记录",
       "date"     : "2022-04-16 00:00:00 +0800"
 
     } ,
@@ -400,9 +400,9 @@
 
       "title"    : "善良",
       "description" : "",
-      "url"      : "/bad_archive/%E8%AF%97/2022-04-16-%E5%96%84%E8%89%AF",
+      "url"      : "/bad/%E8%AF%97/2022-04-16-%E5%96%84%E8%89%AF",
       "category" : "",
-      "tags"     : "archive",
+      "tags"     : "坏记录",
       "date"     : "2022-04-16 00:00:00 +0800"
 
     } ,
@@ -411,9 +411,9 @@
 
       "title"    : "问题意识",
       "description" : "",
-      "url"      : "/bad_archive/%E8%AF%97/2022-04-15-%E9%97%AE%E9%A2%98%E6%84%8F%E8%AF%86",
+      "url"      : "/bad/%E8%AF%97/2022-04-15-%E9%97%AE%E9%A2%98%E6%84%8F%E8%AF%86",
       "category" : "",
-      "tags"     : "archive",
+      "tags"     : "坏记录",
       "date"     : "2022-04-15 00:00:00 +0800"
 
     } ,
@@ -422,9 +422,9 @@
 
       "title"    : "唯心主义",
       "description" : "",
-      "url"      : "/bad_archive/%E8%AF%97/2022-04-15-%E5%94%AF%E5%BF%83%E4%B8%BB%E4%B9%89",
+      "url"      : "/bad/%E8%AF%97/2022-04-15-%E5%94%AF%E5%BF%83%E4%B8%BB%E4%B9%89",
       "category" : "",
-      "tags"     : "archive",
+      "tags"     : "坏记录",
       "date"     : "2022-04-15 00:00:00 +0800"
 
     } ,
@@ -433,9 +433,9 @@
 
       "title"    : "为什么我们要坚持",
       "description" : "",
-      "url"      : "/bad_archive/%E8%AF%97/2022-04-15-%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E4%BB%AC%E8%A6%81%E5%9D%9A%E6%8C%81",
+      "url"      : "/bad/%E8%AF%97/2022-04-15-%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E4%BB%AC%E8%A6%81%E5%9D%9A%E6%8C%81",
       "category" : "",
-      "tags"     : "archive",
+      "tags"     : "坏记录",
       "date"     : "2022-04-15 00:00:00 +0800"
 
     } ,
@@ -444,9 +444,9 @@
 
       "title"    : "停战日",
       "description" : "",
-      "url"      : "/bad_archive/%E8%AF%97/2022-04-14-%E5%81%9C%E6%88%98%E6%97%A5",
+      "url"      : "/bad/%E8%AF%97/2022-04-14-%E5%81%9C%E6%88%98%E6%97%A5",
       "category" : "",
-      "tags"     : "archive",
+      "tags"     : "坏记录",
       "date"     : "2022-04-14 00:00:00 +0800"
 
     } ,
@@ -455,9 +455,9 @@
 
       "title"    : "比比的森林",
       "description" : "",
-      "url"      : "/bad_archive/2022-03-01-%E6%AF%94%E6%AF%94%E7%9A%84%E6%A3%AE%E6%9E%97",
+      "url"      : "/bad/2022-03-01-%E6%AF%94%E6%AF%94%E7%9A%84%E6%A3%AE%E6%9E%97",
       "category" : "",
-      "tags"     : "archive",
+      "tags"     : "坏记录",
       "date"     : "2022-03-01 00:00:00 +0800"
 
     } 

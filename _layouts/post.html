@@ -4,6 +4,10 @@ layout: default
 
 <div class="post">
   <h2>{{ page.title }}</h2>
+  <div class="toc">
+    <b>&nbsp;目录</b>
+    {% include toc.html html=content %}
+  </div>
   {{ content }}
   <div class="meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
   {% for tag in page.tags %}

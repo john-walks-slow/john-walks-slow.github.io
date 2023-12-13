@@ -1,5 +1,6 @@
 site: John's Blog
 url:
+baseurl: ""
 title: John's Blog
 description: 小齐的博客
 author:
@@ -7,12 +8,7 @@ author:
   avatar:
   email: john.ren.contact@gmail.com
 permalink: pretty
-
 timezone: Asia/Shanghai
-
-baseurl: ""
-
-highlighter: none
 
 future: true
 
@@ -39,6 +35,8 @@ kramdown:
   hard_wrap: true
   math_engine: katex
 
+highlighter: rouge
+
 collections:
   pages:
     output: true
@@ -53,23 +51,23 @@ defaults:
     values:
       type: "posts"
       layout: "post"
-      tags: ["bin"]
+      tags: ["折腾"]
   - scope:
-      path: "_posts/bad_archive"
+      path: "_posts/thoughts"
+    values:
+      type: "posts"
+      layout: "post"
+      tags: ["想"]
+  - scope:
+      path: "_posts/bad"
     values:
       type: "posts"
       layout: "post"
       hidden: true
-      tags: ["archive"]
-  # Fallback
+      tags: ["坏记录"]
   - scope:
       path: "_posts/**"
     values:
       type: "posts"
       layout: "post"
-      tags: ["misc"]
-  # 对于首页，使用 default 布局
-  - scope:
-      path: ""
-    values:
-      layout: "default"
+      tags: ["未归类"]

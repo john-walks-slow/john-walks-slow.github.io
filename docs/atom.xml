@@ -4,7 +4,7 @@
  <title>John's Blog</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2023-12-11T21:43:19+08:00</updated>
+ <updated>2023-12-13T23:17:30+08:00</updated>
  <id></id>
  <author>
    <name>小齐</name>
@@ -13,10 +13,70 @@
 
  
  <entry>
+   <title>Chromebook 10e 心得</title>
+   <link href="/bin/2023-12-13-chromebook%2010e%20%E5%BF%83%E5%BE%97"/>
+   <updated>2023-12-13T00:00:00+08:00</updated>
+   <id>/bin/chromebook 10e 心得</id>
+   <summary>之前贪便宜买了块 chrome 板，主要想拿来看书，看电影。
+屏幕和做工在这个价位很棒，说是 ...</summary>
+   <content type="html">&lt;p&gt;之前贪便宜买了块 chrome 板，主要想拿来看书，看电影。&lt;br /&gt;
+屏幕和做工在这个价位很棒，说是 500 块以下最有性价比平板应该没问题的。&lt;/p&gt;
+
+&lt;h2 id=&quot;关于键盘&quot;&gt;关于键盘&lt;/h2&gt;
+
+&lt;p&gt;本来挺期待键盘，但实际很少用。我的键盘接触不良，只在一个特定角度可用（我看外网挺多人有这个问题，应该是某些批次的通病）。手感一般。&lt;/p&gt;
+
+&lt;p&gt;解决接触问题的一个方法是在键盘下面垫东西，增加高度。不过后来我嫌键盘壳太重，干脆裸奔了。我把键盘和壳剪成了两半，平板背后贴一个背贴支架，要用键盘的时候打开支架吸在键盘上。&lt;/p&gt;
+
+&lt;p&gt;我目前用的背贴支架角度还是不够好，容易断触。找到了完美的再来分享。&lt;/p&gt;
+
+&lt;h2 id=&quot;关于-chrome-os&quot;&gt;关于 Chrome OS&lt;/h2&gt;
+
+&lt;h3 id=&quot;梯子&quot;&gt;梯子&lt;/h3&gt;
+
+&lt;p&gt;激活的时候装不了梯子，可以在手机上用 surfboard 共享 vpn，chromebook 上设置代理&lt;/p&gt;
+
+&lt;h3 id=&quot;安装任意-apk&quot;&gt;安装任意 apk&lt;/h3&gt;
+
+&lt;p&gt;默认只能从 google play 装应用，但这个限制是可以绕过的。&lt;br /&gt;
+启用 linux，启用开发安卓应用，在 linux 终端用 adb 装上 shizuku 和 sai（split apk installer），通过无线调试启用 shizuku，shizuku 给 sai 授权。这样折腾一番后就能通过 sai 装任意 apk 了，之后关了 linux 也行。&lt;/p&gt;
+
+&lt;h3 id=&quot;arcvm--arc&quot;&gt;ARCVM / ARC++&lt;/h3&gt;
+
+&lt;p&gt;chrome os 当初用 arc++ 运行安卓，但 android 11 开始改用 arcvm。arcvm 兼容性好点，性能差点，会多占用 1 个 g 的 ram，开机启动会慢 40 秒。&lt;/p&gt;
+
+&lt;p&gt;10e 最后一个使用 Andoird 9 (arc++) 的版本应该是 116。建议不要升级到 116 以上版本。在 flags 里可以关掉更新。&lt;/p&gt;
+
+&lt;h3 id=&quot;降级到-116&quot;&gt;降级到 116&lt;/h3&gt;
+
+&lt;p&gt;去这里下载 recovery &lt;a href=&quot;https://chromiumdash.appspot.com/serving-builds?deviceCategory=Chrome%20OS&quot;&gt;Chrome OS Builds&lt;/a&gt;，chrome 扩展商店装一个叫 Chromebook Recovery Utility 的应用，把下好的 recovery 搞到 u 盘上（选用本地镜像之类的）。然后就刷机。&lt;br /&gt;
+（这段我还没试，之后准备搞一搞，搞定了再更新）&lt;/p&gt;
+
+&lt;h3 id=&quot;小问题&quot;&gt;小问题&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;有时安卓应用会卡住，关不掉也打不开，必须去应用设置强行停止。&lt;/li&gt;
+  &lt;li&gt;很多应用的浮窗不能正常显示（比如欧路词典的快捷查词），背景会变成黑色。不知道有没有人知道怎么解决。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;个人的常用-app&quot;&gt;个人的常用 App&lt;/h2&gt;
+
+&lt;h3 id=&quot;系统&quot;&gt;系统&lt;/h3&gt;
+
+&lt;p&gt;sai，shizuku，雹，killapps（类绿色守护），小企鹅输入法，nekobox&lt;/p&gt;
+
+&lt;h3 id=&quot;应用&quot;&gt;应用&lt;/h3&gt;
+
+&lt;p&gt;xodo，静读天下，obsidian，tvbox，spacedesk（当副屏）&lt;br /&gt;
+娱乐类的就不列了。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>辗转相除法的证明</title>
-   <link href="/think/2023-12-09-%E8%BE%97%E8%BD%AC%E7%9B%B8%E9%99%A4%E6%B3%95%E7%9A%84%E8%AF%81%E6%98%8E"/>
+   <link href="/thoughts/2023-12-09-%E8%BE%97%E8%BD%AC%E7%9B%B8%E9%99%A4%E6%B3%95%E7%9A%84%E8%AF%81%E6%98%8E"/>
    <updated>2023-12-09T00:00:00+08:00</updated>
-   <id>/think/辗转相除法的证明</id>
+   <id>/thoughts/辗转相除法的证明</id>
    <summary>辗转相除法的依据是：
 
   $\gcd(a,b) = \gcd(b, a \bmod b)\ ...</summary>
@@ -80,67 +140,6 @@ https://github.com/john-walks-slow/eudic-crack&lt;/p&gt;
  </entry>
  
  <entry>
-   <title>函数</title>
-   <link href="/think/2023-11-13-%E5%87%BD%E6%95%B0"/>
-   <updated>2023-11-13T00:00:00+08:00</updated>
-   <id>/think/函数</id>
-   <summary>编程语言中的大部分概念不是为了电脑设计的，而是为了人设计的。
-编程语言本身就是一种用户界面。
-...</summary>
-   <content type="html">&lt;p&gt;编程语言中的大部分概念不是为了电脑设计的，而是为了人设计的。&lt;br /&gt;
-编程语言本身就是一种用户界面。&lt;br /&gt;
-今天我想试着讨论一下函数这个概念的意义。&lt;/p&gt;
-
-&lt;p&gt;函数至少有这些作用&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;为一组操作命名，&lt;/li&gt;
-  &lt;li&gt;函数本身可以作为一个&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;函数的作用是区分开  &lt;em&gt;怎么做的&lt;/em&gt;  和  &lt;em&gt;做了什么&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;在编写一个函数的时候，只需要关心&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;我要做什么&lt;/li&gt;
-  &lt;li&gt;我拿到了什么&lt;/li&gt;
-  &lt;li&gt;我要返回什么&lt;br /&gt;
-不需要关心数据的来源和去向&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;在调用一个函数的时候，只需要关心&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;它做了什么&lt;/li&gt;
-  &lt;li&gt;我需要提供什么&lt;/li&gt;
-  &lt;li&gt;它会返回什么&lt;br /&gt;
-不需要关心它具体是如何实现它的功能的&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;这里，只讨论非必要的，为了组织代码而使用的函数。&lt;/p&gt;
-
-&lt;p&gt;a. 函数减少的复杂度：&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;函数外部，可以通过函数名了解函数的功能，不需要清楚具体的实现&lt;/li&gt;
-  &lt;li&gt;函数内部，&lt;/li&gt;
-  &lt;li&gt;把（输入=&amp;gt;操作=&amp;gt;输出）包装成函数，减少重复的代码&lt;/li&gt;
-  &lt;li&gt;函数声明和对函数的调用是分开的，这允许我们声明一组操作而不立即执行。在支持闭包的语言中，当我们在一个函数的内部声明一个子函数，子函数还能记住父函数的作用域。一个对象的方法可以访问这个对象的属性&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;b. 增加的复杂度：&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;如果函数的实现和调用情景是相关的，在编写函数时，我可能要在函数内部和调用情景之间来回切换&lt;/li&gt;
-  &lt;li&gt;阅读代码时&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-js&quot;&gt;操作数 = 5
-比照度 = 0.1
-比照麻烦度 = 1
-外部麻烦度 = 1 - 操作数 + 操作数 * 比照度 * 比照麻烦度
-内部麻烦度 = 
-&lt;/code&gt;&lt;/pre&gt;
-</content>
- </entry>
- 
- <entry>
    <title>12riven 启动码错误、闪退的解决方法</title>
    <link href="/bin/2023-06-10-12Riven%20%E5%90%AF%E5%8A%A8%E7%A0%81%E9%94%99%E8%AF%AF%E3%80%81%E9%97%AA%E9%80%80%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95"/>
    <updated>2023-06-10T00:00:00+08:00</updated>
@@ -148,10 +147,10 @@ https://github.com/john-walks-slow/eudic-crack&lt;/p&gt;
    <summary>
   12R.exe Keygen.exe 12RUNREG.exe 改成 兼容模式（vist...</summary>
    <content type="html">&lt;ol&gt;
-  &lt;li&gt;&lt;code&gt;12R.exe&lt;/code&gt; &lt;code&gt;Keygen.exe&lt;/code&gt; &lt;code&gt;12RUNREG.exe&lt;/code&gt; 改成 兼容模式（vista）、以管理员身份运行&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;12R.exe&lt;/code&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Keygen.exe&lt;/code&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;12RUNREG.exe&lt;/code&gt; 改成 兼容模式（vista）、以管理员身份运行&lt;/li&gt;
   &lt;li&gt;正常破解&lt;/li&gt;
   &lt;li&gt;如果进入游戏提示启动码错误，不要慌，再试一次&lt;/li&gt;
-  &lt;li&gt;成功进入游戏，选择 &lt;code&gt;Start-&amp;gt;System-&amp;gt;System Save&lt;/code&gt; 建立存档 &lt;br /&gt;
+  &lt;li&gt;成功进入游戏，选择 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Start-&amp;gt;System-&amp;gt;System Save&lt;/code&gt; 建立存档 &lt;br /&gt;
 （这一步很重要，否则会在第一个选择支闪退）&lt;/li&gt;
   &lt;li&gt;到达第一个选择支，没闪退就是成功了。&lt;/li&gt;
 &lt;/ol&gt;
@@ -162,9 +161,9 @@ https://github.com/john-walks-slow/eudic-crack&lt;/p&gt;
  
  <entry>
    <title>转述</title>
-   <link href="/bad_archive/%E8%AF%97/2022-05-09-%E8%BD%AC%E8%BF%B0"/>
+   <link href="/bad/%E8%AF%97/2022-05-09-%E8%BD%AC%E8%BF%B0"/>
    <updated>2022-05-09T00:00:00+08:00</updated>
-   <id>/bad_archive/%E8%AF%97/转述</id>
+   <id>/bad/%E8%AF%97/转述</id>
    <summary>《醉翁之意》
 表演时
 看镜头
@@ -208,9 +207,9 @@ https://github.com/john-walks-slow/eudic-crack&lt;/p&gt;
  
  <entry>
    <title>成为的人</title>
-   <link href="/bad_archive/%E8%AF%97/2022-05-08-%E6%88%90%E4%B8%BA%E7%9A%84%E4%BA%BA"/>
+   <link href="/bad/%E8%AF%97/2022-05-08-%E6%88%90%E4%B8%BA%E7%9A%84%E4%BA%BA"/>
    <updated>2022-05-08T00:00:00+08:00</updated>
-   <id>/bad_archive/%E8%AF%97/成为的人</id>
+   <id>/bad/%E8%AF%97/成为的人</id>
    <summary>《海贼王》
 比现在更大！
 比抽象更多！
@@ -256,9 +255,9 @@ https://github.com/john-walks-slow/eudic-crack&lt;/p&gt;
  
  <entry>
    <title>严肃</title>
-   <link href="/bad_archive/%E8%AF%97/2022-05-07-%E4%B8%A5%E8%82%83"/>
+   <link href="/bad/%E8%AF%97/2022-05-07-%E4%B8%A5%E8%82%83"/>
    <updated>2022-05-07T00:00:00+08:00</updated>
-   <id>/bad_archive/%E8%AF%97/严肃</id>
+   <id>/bad/%E8%AF%97/严肃</id>
    <summary>《最后》
 这一朵花
 分心会让它枯
@@ -296,9 +295,9 @@ https://github.com/john-walks-slow/eudic-crack&lt;/p&gt;
  
  <entry>
    <title>升旗仪式</title>
-   <link href="/bad_archive/2022-05-04-%E5%8D%87%E6%97%97%E4%BB%AA%E5%BC%8F"/>
+   <link href="/bad/2022-05-04-%E5%8D%87%E6%97%97%E4%BB%AA%E5%BC%8F"/>
    <updated>2022-05-04T00:00:00+08:00</updated>
-   <id>/bad_archive/升旗仪式</id>
+   <id>/bad/升旗仪式</id>
    <summary>春天在车厢里，我们是两只浅水鱼，在完美的深度，鱼鳍的接触带来的催产素，持续了几个小时，这是我们...</summary>
    <content type="html">&lt;p&gt;春天在车厢里，我们是两只浅水鱼，在完美的深度，鱼鳍的接触带来的催产素，持续了几个小时，这是我们能探测到的最真实的一种表里如一。一些秘密在你入睡后，摇摆的时间是有限的，用模糊的积极姿态，把困惑交给明天，一首只用三个和弦写的歌，每一个我都面朝下一个，一张开心的食物照片不想一双刻薄的眼睛，一次普通的睡眠避开摄像机，下一次感觉肮脏之前，坐在这里。&lt;/p&gt;
 </content>
@@ -306,9 +305,9 @@ https://github.com/john-walks-slow/eudic-crack&lt;/p&gt;
  
  <entry>
    <title>1959 中部</title>
-   <link href="/bad_archive/1944/2022-05-04-1959%20%E4%B8%AD%E9%83%A8"/>
+   <link href="/bad/1944/2022-05-04-1959%20%E4%B8%AD%E9%83%A8"/>
    <updated>2022-05-04T00:00:00+08:00</updated>
-   <id>/bad_archive/1944/1959 中部</id>
+   <id>/bad/1944/1959 中部</id>
    <summary>深圳中部的十字路口，我们牵着手过马路。没有喇叭和五金店，没有想象的中产阶级，这个天气只让我想起...</summary>
    <content type="html">&lt;p&gt;深圳中部的十字路口，我们牵着手过马路。没有喇叭和五金店，没有想象的中产阶级，这个天气只让我想起没做的作业和一首悠长的歌。坐几辆巴士，走几百米，窗外的慢性病医院，一座白房子在绿色里，漫长的一年，装进迷你沙漏，空气闻起来，像是春游的礼拜一。离目的地还有四十分钟的现在，我们躺在后排，为烦恼定个闹钟，一起听一张迷幻乐。穿过隧道与隧道，车会停在盐田港的大楼，和大人物开会——叫你补作业啦，一团松散的意识说着奢侈的话它会脸红吗？这一刻我呆着，下一刻带我离开，一个整体的愿望里，不观察嘴巴的丑陋，熟悉的壳回来了，它的运气是，不用投骰子的运气，即便有罪我们也不去想它。如果干净的风吹着我回家，回到每个要做作业的晚上，就什么都没发生。我们居住过的地方，标记着这座城市，时间排着队带我画出距离，念我的咒语，“发射自己”，我可以选择对的路线吗如果我真的看见它？我不能信任自己的决心。一个个可能实现的日子排在队伍的最后，在包围我的空空荡荡的空气里，相信自己有做好人的自由。&lt;/p&gt;
 </content>
@@ -316,9 +315,9 @@ https://github.com/john-walks-slow/eudic-crack&lt;/p&gt;
  
  <entry>
    <title>事不过三</title>
-   <link href="/bad_archive/%E8%AF%97/2022-05-03-%E4%BA%8B%E4%B8%8D%E8%BF%87%E4%B8%89"/>
+   <link href="/bad/%E8%AF%97/2022-05-03-%E4%BA%8B%E4%B8%8D%E8%BF%87%E4%B8%89"/>
    <updated>2022-05-03T00:00:00+08:00</updated>
-   <id>/bad_archive/%E8%AF%97/事不过三</id>
+   <id>/bad/%E8%AF%97/事不过三</id>
    <summary>它做出一个小恶魔表情👿
 问我：“我可以犯错吗？”
 我说：“可以呀。”
@@ -340,9 +339,9 @@ https://github.com/john-walks-slow/eudic-crack&lt;/p&gt;
  
  <entry>
    <title>思考</title>
-   <link href="/bad_archive/2022-05-03-%E6%80%9D%E8%80%83"/>
+   <link href="/bad/2022-05-03-%E6%80%9D%E8%80%83"/>
    <updated>2022-05-03T00:00:00+08:00</updated>
-   <id>/bad_archive/思考</id>
+   <id>/bad/思考</id>
    <summary>上中学的时候，我觉得数学题不只是老师说的那样，有些东西被剩下了，有些东西是不能确定的。我要憋住...</summary>
    <content type="html">&lt;p&gt;上中学的时候，我觉得数学题不只是老师说的那样，有些东西被剩下了，有些东西是不能确定的。我要憋住逃到不确定中的冲动，不能盯着题干发呆。现在我知道啦，被剩下的那点东西不是在数学里，被剩下的那一点就是我。我怎么可能仅仅是因果关系和进化论，这个被称为“我”的东西无时无刻不在寻找剩余的“价值”，它好像就是剩余价值本身。贪婪是我的存在感。&lt;/p&gt;
 
@@ -362,9 +361,9 @@ https://github.com/john-walks-slow/eudic-crack&lt;/p&gt;
  
  <entry>
    <title>隔离完了的早上</title>
-   <link href="/bad_archive/%E8%AF%97/2022-04-30-%E9%9A%94%E7%A6%BB%E5%AE%8C%E4%BA%86%E7%9A%84%E6%97%A9%E4%B8%8A"/>
+   <link href="/bad/%E8%AF%97/2022-04-30-%E9%9A%94%E7%A6%BB%E5%AE%8C%E4%BA%86%E7%9A%84%E6%97%A9%E4%B8%8A"/>
    <updated>2022-04-30T00:00:00+08:00</updated>
-   <id>/bad_archive/%E8%AF%97/隔离完了的早上</id>
+   <id>/bad/%E8%AF%97/隔离完了的早上</id>
    <summary>隔离完了21天后
 我走出了宾馆的门
 下一批人来之前
@@ -407,9 +406,9 @@ https://github.com/john-walks-slow/eudic-crack&lt;/p&gt;
  
  <entry>
    <title>再让我自我感动一下0430</title>
-   <link href="/bad_archive/2022-04-30-%E5%86%8D%E8%AE%A9%E6%88%91%E8%87%AA%E6%88%91%E6%84%9F%E5%8A%A8%E4%B8%80%E4%B8%8B0430"/>
+   <link href="/bad/2022-04-30-%E5%86%8D%E8%AE%A9%E6%88%91%E8%87%AA%E6%88%91%E6%84%9F%E5%8A%A8%E4%B8%80%E4%B8%8B0430"/>
    <updated>2022-04-30T00:00:00+08:00</updated>
-   <id>/bad_archive/再让我自我感动一下0430</id>
+   <id>/bad/再让我自我感动一下0430</id>
    <summary>终于来到今天，我和你说：“明天见！” 我觉得你好好，我好幸运。我想说：“你是我的支点，最后的参...</summary>
    <content type="html">&lt;p&gt;终于来到今天，我和你说：“明天见！” 我觉得你好好，我好幸运。我想说：“你是我的支点，最后的参考系。”但我知道这种感觉是相对的、暂时的，如果有什么是我能确定的，那就是我们的心是流动的，我不能信任自己的决心，只有发生的和正在发生的事是真的。我们在这艘不彻底的小船上飘，一半在海上一半在陆地，一半在水底一半在天空，傲慢、自私的冲动是我的心，激素与时间是我们拥有的一切。好脏、好混乱、好坏，我做过的事、残留的神经形状、避重就轻的坦白，我还没懂正确（表达是什么？）在一个新的舞台上，我做出一个忏悔的姿势，用粗体的“我错了”挡住了脑海里的狼藉，我们知道这只是暂时的掩饰、自欺欺人、博取同情。写完这个我还是脏的。写这个本身就是脏的。但我们来到了这里，我们确实来到了这里，我们确实来到了这里。&lt;/p&gt;
 </content>
@@ -417,9 +416,9 @@ https://github.com/john-walks-slow/eudic-crack&lt;/p&gt;
  
  <entry>
    <title>1958 懦弱</title>
-   <link href="/bad_archive/1944/2022-04-28-1958%20%E6%87%A6%E5%BC%B1"/>
+   <link href="/bad/1944/2022-04-28-1958%20%E6%87%A6%E5%BC%B1"/>
    <updated>2022-04-28T00:00:00+08:00</updated>
-   <id>/bad_archive/1944/1958 懦弱</id>
+   <id>/bad/1944/1958 懦弱</id>
    <summary>
 A  
 赤脚站在海边，视野里一个人也没有。波浪抚摸我的脚，凉凉的。已经是凌晨一点半，天还亮着...</summary>
@@ -438,9 +437,9 @@ A
  
  <entry>
    <title>1957 笔记</title>
-   <link href="/bad_archive/1944/2022-04-27-1957%20%E7%AC%94%E8%AE%B0"/>
+   <link href="/bad/1944/2022-04-27-1957%20%E7%AC%94%E8%AE%B0"/>
    <updated>2022-04-27T00:00:00+08:00</updated>
-   <id>/bad_archive/1944/1957 笔记</id>
+   <id>/bad/1944/1957 笔记</id>
    <summary>在夜晚和清晨之间的一小段秘密时间，我在黑色的包围里举着手机打字。有一点累，有一点手酸，有一件答...</summary>
    <content type="html">&lt;p&gt;在夜晚和清晨之间的一小段秘密时间，我在黑色的包围里举着手机打字。有一点累，有一点手酸，有一件答应你的事还没做。这个时间没有被老师同学找的危险。今晚读了喜欢的作家，有种命中注定现在读到他的感觉。在他面前，我最精巧的掩饰都形同虚设，他把我的狡诘看穿了。怀疑、混乱、狭隘、任性都说不通。抱着自己的难过不放也说不通。把自己反锁在房间里疯叫也没用了。他坚定地对我说，因为一定会动摇所以相信是永恒的，因为一定会失败所以胜利是绝对的。“当他的灵魂变得焦虑不安时，他就会对着它大声说：当你焦虑不安，那是因为你在愿望。焦虑是愿望的一种形式，而你要知道你不必愿望。猜测是一种骗人的指导，它总是在人们最需要它的时候走开。推测的眼睛是受蒙蔽的，根本看不了多远。推理是一个陷阱，它比别的人更有可能会陷害自己。”读他让我觉得自己不会变成坏人。我大概知道我和你的关系中美好的是什么，我要做个善良的人，努力让我们继续好下去。不要停滞，不要许愿，要相信，在朝向未来的视野里看到现在。相信就是不一定所以是相信，相信之中没有相对而言的余地。今天很累，打电话时很安心。最近主要在语音，感觉比视频要专注、平静。你说手机放耳边可能有辐射影响睡眠。你换成蓝牙耳机后，我听到一点电流声。我们说到我没有特别get的一些音乐，你说你也没有听特别多，只是礼拜六听到了。我们喜欢私人的音乐，我和你还在这里。我佩服你的认真，你的控制，你的干净，你在你的生活里做你“想要”做的事，不完全被环境控制，不完全被自己控制。我想和你看肥皂剧，一起吃好吃的。&lt;/p&gt;
 </content>
@@ -448,9 +447,9 @@ A
  
  <entry>
    <title>漏水0426</title>
-   <link href="/bad_archive/2022-04-26-%E6%BC%8F%E6%B0%B40426"/>
+   <link href="/bad/2022-04-26-%E6%BC%8F%E6%B0%B40426"/>
    <updated>2022-04-26T00:00:00+08:00</updated>
-   <id>/bad_archive/漏水0426</id>
+   <id>/bad/漏水0426</id>
    <summary>真难过呀真难过呀，一边“上课”一边弹琴两边都结束后我让冷冷的感觉在身体里蔓延了一会儿，其实再怎...</summary>
    <content type="html">&lt;p&gt;真难过呀真难过呀，一边“上课”一边弹琴两边都结束后我让冷冷的感觉在身体里蔓延了一会儿，其实再怎么蔓延也不会蔓延到房间里，要说有多难过呢也就还好，本来我只写了“真难过呀”，为了让句子读起来更带劲就重复了一遍，我不过是靠这种肮脏的把戏写日记的。（p.s. 关于“冷冷”，我的温度真的有降低吗？我的温度真的有升高吗？）大部分不留痕迹的时候我果然是一个被遗弃的人在一个世界中心的角落里，当老师说“最后一节课”的时候首先因为各种现实原因这对我不会是最后一节课其次我一节课也没有进入过，所以这简直是第零节课。我要唱很久“我是唯一一个寻找你的人”（《Frontwards》）。然后我想找一首表达“我恨你们！”的歌但是我找不到。其实恨这种东西唱不成歌啊爱情也很难唱成歌因为它们都不彻底至少我没经过什么苦难没什么深刻的恨这是一个值得自卑的点。某种程度上难过的时候写的东西比较干净吧，不再写那种自作聪明云里雾里的东西了，我在用自己有的写自己有的，哈哈哈当然啦！这样子漏水是我最擅长的因为我肚子里装的都是废水排泄废水还是没问题的很快乐~ 确实我喜欢当一个被遗弃的人，喜欢当一个吃力不讨好的，喜欢当一个可怜的人，只有可怜的人没有错啊只有可怜的人就算辛苦就算累就算痛苦也可以坚持啊因为如果我是可怜的那我就被证明了我虽然被压抑着但我还是以自己的可怜的方式被压抑着。大概是这样吧？虽然没道理但是我也不追求有道理啦也不追求什么简洁的语言啦哎之后读起来会是怎么样呢，果然漏水还是找不出问题啊。虽然我不喜欢辛苦不喜欢压抑不喜欢痛，但我也没什么想要舒服想要不劳而获想要高人一等的想法，其实也许也想要吧但是没有想要到可以因此而行动，只有在辛苦压抑痛得不行的时候才会想要不要辛苦不要压抑不要痛，总之喜欢到了“危机”的状况再偷懒，到了更加“危机”的时候就装可怜，其实也不会一直偷懒，会一直做很多无用功的，比如在一个没人重视的功课里向一个老师想假装不存在的方向做很多辛苦的工作，其实也是一定要做的，在危机里必须要做一点的（当然还有客观因素啊），这种时候我一定会选择做一些让自己满意发挥自己本心的在老师看来没用的东西。我会把难过藏好因为全都说出来太笨了但是如果没有全都说出来那就不是我的难过所以我的难过是我的秘密，这也是当可怜人的一个好处，好人没有秘密但是我有秘密。&lt;/p&gt;
 </content>
@@ -458,9 +457,9 @@ A
  
  <entry>
    <title>1956 食物</title>
-   <link href="/bad_archive/1944/2022-04-25-1956%20%E9%A3%9F%E7%89%A9"/>
+   <link href="/bad/1944/2022-04-25-1956%20%E9%A3%9F%E7%89%A9"/>
    <updated>2022-04-25T00:00:00+08:00</updated>
-   <id>/bad_archive/1944/1956 食物</id>
+   <id>/bad/1944/1956 食物</id>
    <summary>这个房间灯很亮，没有太阳。我呆在这里16年了，没有出过门。大多数时间我只做自己喜欢做的事，看连...</summary>
    <content type="html">&lt;p&gt;这个房间灯很亮，没有太阳。我呆在这里16年了，没有出过门。大多数时间我只做自己喜欢做的事，看连续剧、猜字谜、吃饭。每天固定时间（8点，12点，18点），有人会把饭送到门口，有时是中式的饭菜，有时是美式快餐，有时是日式便当，肉丸的口味不错，不知道是什么动物的肉。其实，口味我不太在意，连续吃一年肉丸配可乐也没问题，营养我也不在意，吃坏了最多是拉肚子，我在意的是放松的感觉，吃一个肉丸喝一口可乐，你不知道那有多快活。有时在半夜，我会听到动物的惨叫，应该是动物，很尖锐，很规律，听久了会怀疑是不是有人在捏橡胶鸡，或是空调机故障了。声音大概持续一小时，然后就安静了。每次听到这种声音，我都会感到道德上的责任，去找些屠宰场新闻，屠宰场实录，屠宰场理论看。唯独屠宰场视频我不敢看，那些视频在暗网上有，我偷看过一次，之后一整个月我都吃不下肉。哎，等定居了再看吧，这也是一种让自己好受一点的技巧，要定居就要毕业啊。我的毕业论文还没动过，主题是“火星鸡的药用价值”。&lt;/p&gt;
 </content>
@@ -468,9 +467,9 @@ A
  
  <entry>
    <title>幼稚0425</title>
-   <link href="/bad_archive/%E8%AF%97/2022-04-24-%E5%B9%BC%E7%A8%9A0425"/>
+   <link href="/bad/%E8%AF%97/2022-04-24-%E5%B9%BC%E7%A8%9A0425"/>
    <updated>2022-04-24T00:00:00+08:00</updated>
-   <id>/bad_archive/%E8%AF%97/幼稚0425</id>
+   <id>/bad/%E8%AF%97/幼稚0425</id>
    <summary>小小的人  
 你的脑袋里没有眼睛  
 你的身体里没有脚  
@@ -528,9 +527,9 @@ A
  
  <entry>
    <title>爱情废话</title>
-   <link href="/bad_archive/%E8%AF%97/2022-04-23-%E7%88%B1%E6%83%85%E5%BA%9F%E8%AF%9D"/>
+   <link href="/bad/%E8%AF%97/2022-04-23-%E7%88%B1%E6%83%85%E5%BA%9F%E8%AF%9D"/>
    <updated>2022-04-23T00:00:00+08:00</updated>
-   <id>/bad_archive/%E8%AF%97/爱情废话</id>
+   <id>/bad/%E8%AF%97/爱情废话</id>
    <summary>一天又一天  
 在我们前面  
 一天又一天  
@@ -596,9 +595,9 @@ A
  
  <entry>
    <title>1955 跑鞋</title>
-   <link href="/bad_archive/1944/2022-04-23-1955%20%E8%B7%91%E9%9E%8B"/>
+   <link href="/bad/1944/2022-04-23-1955%20%E8%B7%91%E9%9E%8B"/>
    <updated>2022-04-23T00:00:00+08:00</updated>
-   <id>/bad_archive/1944/1955 跑鞋</id>
+   <id>/bad/1944/1955 跑鞋</id>
    <summary>趴在有一根头发和一粒饭粒的被子上，用小臂支撑上身，左右拇指点手机。身体挡住光，制造了不规则的阴...</summary>
    <content type="html">&lt;p&gt;趴在有一根头发和一粒饭粒的被子上，用小臂支撑上身，左右拇指点手机。身体挡住光，制造了不规则的阴影，阴影不是纯黑，说明光线找到了路线。头戴耳机漏音，勉强听出，一首背景音乐，高频有弦乐，耳机线很长，垂到地面，弯成“W”，不被洁癖控制。笔记本呼啸，“呼~”，安静一会儿，“呼~”。它过时，可能中毒了，不知道健康状况，它霸道地呼。我和我的运动鞋，很扁，一眼不看就能写，它常在视野边缘，一只站着一只倒了。我和它，不能放任自己，不能控制自己，依据的是惯性和加速度。想：跑得快的是不动的，呆得久的是不停的。我小心地写我和东西，没有大肚写我和人。我们说了很久，关于后天和大后天，小聪明们不起作用。论坛上喜欢的文字很多。做了一天事，心安理得，幸运。觉得自己有罪，没脸，有没有真的自责过？运动鞋，希望它不东倒西歪。希望它零零落落。希望它整整齐齐。&lt;/p&gt;
 </content>
